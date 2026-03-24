@@ -60,6 +60,10 @@
       "crop": {
         "label": "图片裁剪",
         "desc": "将图片裁剪为精确尺寸"
+      },
+      "removeBg": {
+        "label": "去除背景",
+        "desc": "AI自动去除图片背景，保存为透明PNG"
       }
     },
     "pdf": {
@@ -359,6 +363,17 @@
       "resizeBtn": "调整图片大小",
       "resultTitle": "图片大小调整完成！",
       "infoText": "当仅指定一个尺寸时保持宽高比，另一个尺寸会自动计算。输出格式与输入格式匹配。"
+    },
+    "imageBgRemover": {
+      "title": "背景去除",
+      "desc": "使用AI自动去除图片背景，保存为透明PNG文件。",
+      "dropLabel": "将图片拖放到此处",
+      "removeBtn": "去除背景",
+      "processing": "AI正在去除背景...",
+      "loadingHint": "AI处理中，首次运行可能需要30秒。",
+      "success": "背景去除成功！",
+      "resultTitle": "背景去除完成！",
+      "infoText": "支持JPG、PNG、WebP图片。结果将保存为透明背景的PNG文件。"
     },
     "imageCompressor": {
       "title": "图片压缩器",

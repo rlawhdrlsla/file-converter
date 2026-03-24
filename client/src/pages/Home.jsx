@@ -39,6 +39,7 @@ export default function Home() {
         { label: t('tools.image.resize.label'), path: '/image/resize', desc: t('tools.image.resize.desc') },
         { label: t('tools.image.compress.label'), path: '/image/compress', desc: t('tools.image.compress.desc') },
         { label: t('tools.image.toPdf.label'), path: '/image/to-pdf', desc: t('tools.image.toPdf.desc') },
+        { label: t('tools.image.removeBg.label'), path: '/image/remove-bg', desc: t('tools.image.removeBg.desc') },
       ],
     },
     {

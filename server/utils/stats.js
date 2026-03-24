@@ -30,6 +30,7 @@ const TOOL_LABELS = {
   json_to_xml:    'JSON → XML',
   zip_create:     'ZIP 만들기',
   zip_extract:    'ZIP 압축해제',
+  image_bg_remove: '배경 제거',
 };
 
 function loadStats() {

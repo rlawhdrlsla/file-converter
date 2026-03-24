@@ -262,4 +262,39 @@ router.post('/crop', upload.single('file'), checkFileSecurity, async (req, res) 
   }
 });
 
+// POST /api/image/remove-bg
+router.post('/remove-bg', upload.single('file'), checkFileSecurity, async (req, res) => {
+  if (!req.file) return res.status(400).json({ error: 'No file uploaded' });
+
+  const outputFilename = `${uuidv4()}.png`;
+  const outputPath = path.join(outputsPath, outputFilename);
+
+  try {
+    const { removeBackground } = await import('@imgly/background-removal-node');
+    const resultBlob = await removeBackground(req.file.path);
+    const arrayBuffer = await resultBlob.arrayBuffer();
+    const buffer = Buffer.from(arrayBuffer);
+    fs.writeFileSync(outputPath, buffer);
+
+    fs.unlinkSync(req.file.path);
+
+    const stats = fs.statSync(outputPath);
+    const meta = await sharp(outputPath).metadata();
+
+    recordConversion('image_bg_remove');
+    res.json({
+      success: true,
+      filename: outputFilename,
+      downloadUrl: `/outputs/${outputFilename}`,
+      size: stats.size,
+      width: meta.width,
+      height: meta.height,
+    });
+  } catch (err) {
+    console.error('BG remove error:', err);
+    if (fs.existsSync(req.file.path)) fs.unlinkSync(req.file.path);
+    res.status(500).json({ error: `Background removal failed: ${err.message}` });
+  }
+});
+
 export default router;
