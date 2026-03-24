@@ -60,7 +60,7 @@
       "crop": {
         "label": "Image Cropper",
         "desc": "Crop images to exact dimensions"
-      },
+      }
     },
     "pdf": {
       "merge": {
