@@ -19,6 +19,10 @@ import JsonToXml from './pages/text/JsonToXml.jsx';
 import XlsxToCsv from './pages/text/XlsxToCsv.jsx';
 import ZipCreator from './pages/archive/ZipCreator.jsx';
 import ZipExtractor from './pages/archive/ZipExtractor.jsx';
+import AudioConverter from './pages/audio/AudioConverter.jsx';
+import VideoConverter from './pages/video/VideoConverter.jsx';
+import VideoCompressor from './pages/video/VideoCompressor.jsx';
+import VideoToGif from './pages/video/VideoToGif.jsx';
 import About from './pages/About.jsx';
 import Privacy from './pages/Privacy.jsx';
 import Terms from './pages/Terms.jsx';
@@ -77,6 +81,12 @@ function App() {
           <Route path="text/csv-to-xlsx" element={<CsvToXlsx />} />
           <Route path="text/json-to-xml" element={<JsonToXml />} />
           <Route path="text/xlsx-to-csv" element={<XlsxToCsv />} />
+          {/* Audio Routes */}
+          <Route path="audio/convert" element={<AudioConverter />} />
+          {/* Video Routes */}
+          <Route path="video/convert" element={<VideoConverter />} />
+          <Route path="video/compress" element={<VideoCompressor />} />
+          <Route path="video/to-gif" element={<VideoToGif />} />
           {/* Archive Routes */}
           <Route path="archive/zip-creator" element={<ZipCreator />} />
           <Route path="archive/zip-extractor" element={<ZipExtractor />} />
