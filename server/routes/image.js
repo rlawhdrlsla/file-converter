@@ -266,42 +266,10 @@ router.post('/crop', upload.single('file'), checkFileSecurity, async (req, res) 
   }
 });
 
-// POST /api/image/remove-bg
-router.post('/remove-bg', upload.single('file'), checkFileSecurity, async (req, res) => {
-  if (!req.file) return res.status(400).json({ error: 'No file uploaded' });
-
-  const outputFilename = `${uuidv4()}.png`;
-  const outputPath = path.join(outputsPath, outputFilename);
-
-  try {
-    const { removeBackground } = await import('@imgly/background-removal-node');
-    const pkgDir = path.resolve(__dirname, '../node_modules/@imgly/background-removal-node');
-    const publicPath = `file://${pkgDir}/dist/`;
-
-    const resultBlob = await removeBackground(req.file.path, { publicPath, model: 'small' });
-    const arrayBuffer = await resultBlob.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-    fs.writeFileSync(outputPath, buffer);
-
-    fs.unlinkSync(req.file.path);
-
-    const stats = fs.statSync(outputPath);
-    const meta = await sharp(outputPath).metadata();
-
-    recordConversion('image_bg_remove');
-    res.json({
-      success: true,
-      filename: outputFilename,
-      downloadUrl: `/outputs/${outputFilename}`,
-      size: stats.size,
-      width: meta.width,
-      height: meta.height,
-    });
-  } catch (err) {
-    console.error('BG remove error:', err);
-    if (fs.existsSync(req.file.path)) fs.unlinkSync(req.file.path);
-    res.status(500).json({ error: `Background removal failed: ${err.message}` });
-  }
+// POST /api/image/remove-bg (임시 비활성화 — ONNX 런타임 환경 이슈)
+router.post('/remove-bg', upload.single('file'), async (req, res) => {
+  if (req.file && fs.existsSync(req.file.path)) fs.unlinkSync(req.file.path);
+  res.status(503).json({ error: '배경 제거 기능은 현재 점검 중입니다. 잠시 후 다시 시도해 주세요.' });
 });
 
 export default router;
