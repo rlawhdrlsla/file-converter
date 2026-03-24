@@ -15,7 +15,7 @@ export default function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
     // mailto fallback — replace with a real form backend if needed
-    const mailto = `mailto:contact.jongki@gmail.com?subject=${encodeURIComponent(form.subject)}&body=${encodeURIComponent(
+    const mailto = `mailto:rlawhdrl3702@gmail.com?subject=${encodeURIComponent(form.subject)}&body=${encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`
     )}`;
     window.location.href = mailto;
@@ -44,7 +44,7 @@ export default function Contact() {
 
         <div className="grid sm:grid-cols-3 gap-4 mb-10">
           {[
-            { icon: Mail, title: t('contact.email'), desc: 'contact.jongki@gmail.com', gradient: 'from-blue-500 to-indigo-500' },
+            { icon: Mail, title: t('contact.email'), desc: 'rlawhdrl3702@gmail.com', gradient: 'from-blue-500 to-indigo-500' },
             { icon: MessageSquare, title: t('contact.feedback'), desc: t('contact.feedbackDesc'), gradient: 'from-purple-500 to-pink-500' },
             { icon: Clock, title: t('contact.responseTime'), desc: t('contact.responseDesc'), gradient: 'from-green-500 to-teal-500' },
           ].map(item => {
@@ -74,8 +74,8 @@ export default function Contact() {
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('contact.successTitle')}</h2>
             <p className="text-gray-500 dark:text-gray-400 text-sm">
               {t('contact.successDesc')}{' '}
-              <a href="mailto:contact.jongki@gmail.com" className="text-blue-500 hover:underline">
-                contact.jongki@gmail.com
+              <a href="mailto:rlawhdrl3702@gmail.com" className="text-blue-500 hover:underline">
+                rlawhdrl3702@gmail.com
               </a>
             </p>
             <button
@@ -165,8 +165,8 @@ export default function Contact() {
               </button>
               <p className="text-xs text-gray-400 dark:text-gray-500 text-center">
                 {t('contact.directEmail')}{' '}
-                <a href="mailto:contact.jongki@gmail.com" className="text-blue-500 hover:underline">
-                  contact.jongki@gmail.com
+                <a href="mailto:rlawhdrl3702@gmail.com" className="text-blue-500 hover:underline">
+                  rlawhdrl3702@gmail.com
                 </a>
               </p>
             </form>
