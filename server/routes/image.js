@@ -271,7 +271,12 @@ router.post('/remove-bg', upload.single('file'), checkFileSecurity, async (req, 
 
   try {
     const { removeBackground } = await import('@imgly/background-removal-node');
-    const resultBlob = await removeBackground(req.file.path);
+    const { createRequire } = await import('module');
+    const require = createRequire(import.meta.url);
+    const pkgDir = path.dirname(require.resolve('@imgly/background-removal-node/package.json'));
+    const publicPath = `file://${pkgDir}/dist/`;
+
+    const resultBlob = await removeBackground(req.file.path, { publicPath, model: 'small' });
     const arrayBuffer = await resultBlob.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
     fs.writeFileSync(outputPath, buffer);
