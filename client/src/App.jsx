@@ -7,7 +7,6 @@ import ImageConverter from './pages/image/ImageConverter.jsx';
 import ImageResizer from './pages/image/ImageResizer.jsx';
 import ImageCompressor from './pages/image/ImageCompressor.jsx';
 import ImageCropper from './pages/image/ImageCropper.jsx';
-import ImageBgRemover from './pages/image/ImageBgRemover.jsx';
 import PdfMerger from './pages/pdf/PdfMerger.jsx';
 import PdfSplitter from './pages/pdf/PdfSplitter.jsx';
 import ImageToPdf from './pages/pdf/ImageToPdf.jsx';
@@ -70,7 +69,6 @@ function App() {
           <Route path="image/compress" element={<ImageCompressor />} />
           <Route path="image/crop" element={<ImageCropper />} />
           <Route path="image/to-pdf" element={<ImageToPdf />} />
-          <Route path="image/remove-bg" element={<ImageBgRemover />} />
           {/* PDF Routes */}
           <Route path="pdf/merge" element={<PdfMerger />} />
           <Route path="pdf/split" element={<PdfSplitter />} />

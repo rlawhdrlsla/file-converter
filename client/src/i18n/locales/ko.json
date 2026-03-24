@@ -61,10 +61,6 @@
         "label": "이미지 자르기",
         "desc": "이미지를 정확한 크기로 자르기"
       },
-      "removeBg": {
-        "label": "배경 제거",
-        "desc": "AI로 이미지 배경을 자동으로 제거하고 투명 PNG로 저장"
-      }
     },
     "pdf": {
       "merge": {
@@ -363,17 +359,6 @@
       "resizeBtn": "이미지 크기 조정",
       "resultTitle": "이미지 크기 조정 완료!",
       "infoText": "하나의 크기만 지정하고 비율을 유지하면 다른 쪽이 자동으로 계산됩니다. 출력 형식은 입력 형식과 동일합니다."
-    },
-    "imageBgRemover": {
-      "title": "배경 제거",
-      "desc": "AI로 이미지 배경을 자동으로 제거합니다. PNG(투명) 파일로 저장됩니다.",
-      "dropLabel": "이미지를 여기에 드롭하세요",
-      "removeBtn": "배경 제거하기",
-      "processing": "AI가 배경 제거 중...",
-      "loadingHint": "AI 처리 중이에요. 처음 실행 시 30초 정도 걸릴 수 있어요.",
-      "success": "배경이 성공적으로 제거됐어요!",
-      "resultTitle": "배경 제거 완료!",
-      "infoText": "JPG, PNG, WebP 이미지를 지원합니다. 결과물은 투명 배경의 PNG 파일로 저장돼요. 인물, 제품, 로고 등에 효과적이에요."
     },
     "imageCompressor": {
       "title": "이미지 압축기",

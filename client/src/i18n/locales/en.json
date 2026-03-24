@@ -61,10 +61,6 @@
         "label": "Image Cropper",
         "desc": "Crop images to exact dimensions"
       },
-      "removeBg": {
-        "label": "Remove Background",
-        "desc": "AI-powered background removal, saves as transparent PNG"
-      }
     },
     "pdf": {
       "merge": {
@@ -363,17 +359,6 @@
       "resizeBtn": "Resize Image",
       "resultTitle": "Image resized!",
       "infoText": "When maintaining aspect ratio with only one dimension specified, the other is calculated automatically. The output format matches the input format."
-    },
-    "imageBgRemover": {
-      "title": "Background Remover",
-      "desc": "Automatically remove image backgrounds using AI. Saves as transparent PNG.",
-      "dropLabel": "Drop an image here",
-      "removeBtn": "Remove Background",
-      "processing": "AI is removing background...",
-      "loadingHint": "AI processing in progress. The first run may take up to 30 seconds.",
-      "success": "Background removed successfully!",
-      "resultTitle": "Background Removed!",
-      "infoText": "Supports JPG, PNG, and WebP images. The result is saved as a transparent PNG file. Works great for people, products, and logos."
     },
     "imageCompressor": {
       "title": "Image Compressor",
