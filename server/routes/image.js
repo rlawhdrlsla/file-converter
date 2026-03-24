@@ -2,10 +2,14 @@ import express from 'express';
 import sharp from 'sharp';
 import path from 'path';
 import fs from 'fs';
+import { fileURLToPath } from 'url';
 import { v4 as uuidv4 } from 'uuid';
 import { upload, outputsPath } from '../middleware/upload.js';
 import { checkFileSecurity } from '../middleware/fileSecurity.js';
 import { recordConversion } from '../utils/stats.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const router = express.Router();
 
@@ -271,9 +275,7 @@ router.post('/remove-bg', upload.single('file'), checkFileSecurity, async (req, 
 
   try {
     const { removeBackground } = await import('@imgly/background-removal-node');
-    const { createRequire } = await import('module');
-    const require = createRequire(import.meta.url);
-    const pkgDir = path.dirname(require.resolve('@imgly/background-removal-node/package.json'));
+    const pkgDir = path.resolve(__dirname, '../node_modules/@imgly/background-removal-node');
     const publicPath = `file://${pkgDir}/dist/`;
 
     const resultBlob = await removeBackground(req.file.path, { publicPath, model: 'small' });
