@@ -1,0 +1,612 @@
+{
+  "nav": {
+    "imageTools": "画像ツール",
+    "pdfTools": "PDFツール",
+    "audioVideo": "音声・動画",
+    "dataTools": "データツール"
+  },
+  "home": {
+    "badge": "無料・高速・登録不要",
+    "title1": "あらゆるファイルを",
+    "title2": "即座に変換",
+    "subtitle": "画像、PDF、音声、動画、データファイル——すべての変換を一か所で。インストール不要、透かしなし、完全無料。",
+    "searchPlaceholder": "ツールを検索...（例：'JPG変換'、'PDF結合'）",
+    "noResults": "該当するツールが見つかりません：",
+    "stats": {
+      "tools": "変換ツール",
+      "formats": "ファイル形式",
+      "maxSize": "最大ファイルサイズ",
+      "free": "完全無料"
+    },
+    "whyTitle": "FileConvert が選ばれる理由",
+    "whySubtitle": "プライバシー・速度・使いやすさにこだわって作りました。",
+    "features": {
+      "secure": {
+        "title": "安全でプライベート",
+        "desc": "ファイルは変換処理のみに使用し、1時間後に自動削除します。中身を見たり保存することはありません。"
+      },
+      "fast": {
+        "title": "高速変換",
+        "desc": "サーバーで処理するので、変換は数秒で完了します。"
+      },
+      "noSignup": {
+        "title": "登録不要",
+        "desc": "アカウント不要、インストール不要。開いてすぐ使えます。"
+      },
+      "quality": {
+        "title": "高品質出力",
+        "desc": "いつでもクリアで高品質な変換結果をお届けします。"
+      }
+    }
+  },
+  "tools": {
+    "image": {
+      "convert": {
+        "label": "画像コンバーター",
+        "desc": "JPG、PNG、WebP、GIF形式間で変換"
+      },
+      "resize": {
+        "label": "画像リサイズ",
+        "desc": "ピクセルまたはパーセンテージでサイズ変更"
+      },
+      "compress": {
+        "label": "画像圧縮",
+        "desc": "品質コントロールで画像ファイルサイズを削減"
+      },
+      "toPdf": {
+        "label": "画像をPDFに",
+        "desc": "1枚または複数の画像をPDFに変換"
+      },
+      "crop": {
+        "label": "画像トリミング",
+        "desc": "画像を正確なサイズにトリミング"
+      }
+    },
+    "pdf": {
+      "merge": {
+        "label": "PDF結合",
+        "desc": "複数のPDFファイルを1つに結合"
+      },
+      "split": {
+        "label": "PDF分割",
+        "desc": "PDFから特定のページを抽出"
+      },
+      "compress": {
+        "label": "PDF圧縮",
+        "desc": "PDFファイルサイズを削減"
+      },
+      "toWord": {
+        "label": "PDFをWordに",
+        "desc": "PDFを編集可能なWord文書に変換"
+      },
+      "wordToPdf": {
+        "label": "WordをPDFに",
+        "desc": "Word文書をPDFに変換"
+      }
+    },
+    "audio": {
+      "convert": {
+        "label": "音声コンバーター",
+        "desc": "MP3、WAV、AAC、FLAC、OGGを変換"
+      }
+    },
+    "video": {
+      "convert": {
+        "label": "動画コンバーター",
+        "desc": "MP4、AVI、MOV、MKV、WebMを変換"
+      },
+      "toGif": {
+        "label": "動画をGIFに",
+        "desc": "動画クリップをアニメーションGIFに変換"
+      },
+      "compress": {
+        "label": "動画圧縮",
+        "desc": "動画ファイルサイズを削減"
+      }
+    },
+    "data": {
+      "csvToJson": {
+        "label": "CSVをJSONに",
+        "desc": "CSVデータをJSON形式に変換"
+      },
+      "jsonToCsv": {
+        "label": "JSONをCSVに",
+        "desc": "JSON配列をCSVに変換"
+      },
+      "csvToXlsx": {
+        "label": "CSVをXLSXに",
+        "desc": "CSVをExcelスプレッドシートに変換"
+      },
+      "jsonToXml": {
+        "label": "JSONをXMLに",
+        "desc": "JSONをXML形式に変換"
+      },
+      "xlsvToCsv": {
+        "label": "XLSXをCSVに",
+        "desc": "ExcelをCSV形式に変換"
+      }
+    },
+    "archive": {
+      "zipCreator": {
+        "label": "ZIP作成",
+        "desc": "複数のファイルからZIPアーカイブを作成"
+      },
+      "zipExtractor": {
+        "label": "ZIP解凍",
+        "desc": "ZIPアーカイブからファイルを展開"
+      }
+    }
+  },
+  "categories": {
+    "imageTools": "画像ツール",
+    "pdfTools": "PDFツール",
+    "audioTools": "音声ツール",
+    "videoTools": "動画ツール",
+    "dataTools": "データツール",
+    "archiveTools": "アーカイブツール"
+  },
+  "about": {
+    "title": "FileConvertについて",
+    "subtitle": "登録不要、透かしなし、面倒な手順もなし。ファイルをアップして変換してダウンロード、それだけです。",
+    "storyTitle": "私たちのストーリー",
+    "story1": "FileConvert は、広告だらけで登録を強制し、容量制限がきつく、変換結果に透かしを入れてくるツールへの不満から生まれました。",
+    "story2": "シンプルで速くて本当に無料なツールを作ろうと思いました。アップロード → 形式を選ぶ → 変換 → ダウンロード。それだけです。",
+    "story3": "画像処理には Sharp、PDF には pdf-lib、スプレッドシートには XLSX.js など、実績あるオープンソースライブラリを採用しています。",
+    "valuesTitle": "私たちの価値観",
+    "values": {
+      "speed": {
+        "title": "速度重視",
+        "desc": "すべての変換は最適化されたライブラリでサーバーサイドで実行され、最速の結果を保証します。クライアントサイドの遅延なし。"
+      },
+      "privacy": {
+        "title": "プライバシー優先",
+        "desc": "ファイルは永続的に保存されません。アップロードされたすべてのファイルは1時間後に自動的に削除されます。ファイルを読んだり、分析したり、共有したりすることはありません。"
+      },
+      "open": {
+        "title": "オープンで透明",
+        "desc": "Sharp・pdf-lib・XLSX などのオープンソースライブラリで構築しています。コードはいつでも確認できます。"
+      },
+      "free": {
+        "title": "常に無料",
+        "desc": "FileConvertは今後も無料で使用できます。非侵入的な広告でこのプロジェクトを支援しています。"
+      }
+    },
+    "techTitle": "技術スタック"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "質問、提案、またはバグを見つけましたか？ぜひご連絡ください。",
+    "email": "メール",
+    "feedback": "フィードバック",
+    "feedbackDesc": "バグ報告と機能リクエストを歓迎します",
+    "responseTime": "返信時間",
+    "responseDesc": "通常1〜2営業日以内に返信いたします",
+    "formTitle": "メッセージを送る",
+    "name": "お名前",
+    "namePlaceholder": "お名前を入力してください",
+    "emailPlaceholder": "メールアドレス@例.com",
+    "subject": "件名",
+    "subjectPlaceholder": "何についてですか？",
+    "message": "メッセージ",
+    "messagePlaceholder": "ご質問やフィードバックを記載してください...",
+    "send": "メッセージを送信",
+    "directEmail": "または直接メールをお送りください",
+    "successTitle": "メッセージが送信されました！",
+    "successDesc": "メールアプリが自動で開いたはずです。開いていない場合は、直接こちらのアドレスへ",
+    "sendAnother": "別のメッセージを送る"
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "updated": "最終更新：2026年3月",
+    "intro": "FileConvertはお客様のプライバシー保護に取り組んでいます。このポリシーは、ファイル変換サービスの利用時に情報をどのように取り扱うかを説明します。要約すると：",
+    "introHighlight": "お客様のデータを販売せず、ファイルを読み取らず、すべてを自動的に削除します。",
+    "sections": {
+      "0": {
+        "title": "1. アップロードするファイル",
+        "content": "変換のためにファイルをアップロードすると、要求された変換を実行するためだけに一時的にサーバーに保存されます。変換が成功したかどうかに関わらず、ファイルは1時間後に自動的に永久削除されます。\n\nファイルの内容を読んだり、分析したり、コピーしたり、共有したり、販売したりすることはありません。ファイルは隔離された一時ディレクトリで処理され、他のユーザーはアクセスできません。"
+      },
+      "1": {
+        "title": "2. 収集する情報",
+        "content": "サービスを運営するために最小限の技術情報を収集します：\n• サーバーアクセスログ（IPアドレス、タイムスタンプ、リクエストURL）——セキュリティ目的で7日間保持\n• 集計使用統計（変換が何回行われたか、どのツールが使用されたか）——匿名化され、個人を特定できる情報なし\n\nトラッキングのためのCookieは使用しません。お名前、メールアドレス、または個人を特定できる情報を収集しません。"
+      },
+      "2": {
+        "title": "3. 広告",
+        "content": "このサービスの無料運営を支援するために広告を表示します。広告プロバイダーは、閲覧履歴に基づいて関連広告を配信するためにCookieを使用する場合があります。ブラウザの設定や広告プロバイダーのオプトアウトツールを通じて、パーソナライズド広告をオプトアウトできます。\n\n広告収入はこの無料サービスを支援する唯一の手段です。"
+      },
+      "3": {
+        "title": "4. サードパーティサービス",
+        "content": "以下のサードパーティサービスを使用する場合があります：\n• 静的アセットを提供するコンテンツ配信ネットワーク（CDN）\n• 広告のためのGoogle AdSenseまたは類似サービス\n\nこれらのサービスには独自のプライバシーポリシーがあります。確認されることをお勧めします。"
+      },
+      "4": {
+        "title": "5. データセキュリティ",
+        "content": "すべてのデータ転送にHTTPSを使用します。ファイルのアップロードは安全な環境でサーバーサイドで処理されます。変換プロセス中にデータを保護するために合理的な技術的措置を実施します。\n\nただし、インターネット転送は100%安全ではありません。機密の個人情報を含む非常に機密性の高いファイルはアップロードしないことをお勧めします。"
+      },
+      "5": {
+        "title": "6. 子どものプライバシー",
+        "content": "FileConvertは13歳未満の子どもを対象としていません。子どもから故意に個人情報を収集することはありません。子どもがこのサービスを使用したと思われる場合は、ご連絡ください。"
+      },
+      "6": {
+        "title": "7. ポリシーの変更",
+        "content": "このプライバシーポリシーを随時更新する場合があります。変更は更新日付とともにこのページに掲載されます。変更後にサービスを引き続き使用することは、新しいポリシーへの同意とみなされます。"
+      },
+      "7": {
+        "title": "8. お問い合わせ",
+        "content": "このプライバシーポリシーについてご質問がある場合は、会社概要ページに記載されている情報を通じてお問い合わせください。"
+      }
+    }
+  },
+  "terms": {
+    "title": "利用規約",
+    "updated": "最終更新：2026年3月",
+    "intro": "FileConvertを使用する前に、この利用規約をよくお読みください。サービスを使用することで、これらの規約に同意したとみなされます。",
+    "sections": {
+      "0": {
+        "title": "1. 規約への同意",
+        "content": "FileConvert（「サービス」）にアクセスして使用することにより、この利用規約に拘束されることに同意します。同意しない場合は、サービスをご利用にならないでください。"
+      },
+      "1": {
+        "title": "2. サービスの説明",
+        "content": "FileConvertは、画像、PDF、音声、動画、データファイルを含むさまざまな形式間でファイルを変換できる無料のオンラインファイル変換サービスを提供します。サービスは何の保証もなく「現状のまま」提供されます。"
+      },
+      "2": {
+        "title": "3. 許容される使用",
+        "content": "合法的な目的のためにのみサービスを使用することに同意します。以下のことをしてはなりません：\n• マルウェア、ウイルス、または悪意のあるコードを含むファイルのアップロード\n• 違法なコンテンツを含むファイルのアップロード（CSAM、所有していない著作権のある素材など）\n• サービスへの過負荷または攻撃の試み\n• コピープロテクションまたはDRMを回避するためのサービスの使用\n• サービスを悪用するための自動化スクリプトの使用\n• 同意なしに他者の個人を特定できる情報を含むファイルのアップロード"
+      },
+      "3": {
+        "title": "4. ファイルの所有権と権利",
+        "content": "アップロードするすべてのファイルを所有しているか、変換する権利があることを表明します。ファイルに対するすべての所有権を保持します。お客様のコンテンツに対していかなる所有権も主張しません。\n\nファイルをアップロードすることにより、変換を処理してお客様に結果を返すためだけの一時的で限定的なライセンスを付与します。このライセンスは、ファイルが削除されたとき（1時間後）に終了します。"
+      },
+      "4": {
+        "title": "5. サービスの制限",
+        "content": "サービスには以下の制限があります：\n• 最大ファイルサイズ：ファイルあたり100MB\n• ファイルは1時間後に削除されます\n• 動画と音声の変換にはFFmpegのインストールが必要です\n• すべてのファイルタイプの変換精度を保証しません\n• サービスの可用性は保証されません——ダウンタイムが発生する場合があります"
+      },
+      "5": {
+        "title": "6. 保証の免責事項",
+        "content": "サービスはいかなる種類の保証もなく「現状のまま」および「利用可能な状態で」提供されます。商品性、特定目的への適合性、および非侵害を含む、すべての明示的または黙示的な保証を否認します。\n\n以下を保証しません：\n• サービスが中断なくまたはエラーなく提供されること\n• 変換結果が正確または完全であること\n• サービスがウイルスや有害なコンポーネントを含まないこと"
+      },
+      "6": {
+        "title": "7. 責任の制限",
+        "content": "法律が許可する最大限の範囲で、データや利益の損失を含む、サービスの使用または使用不能から生じるいかなる間接的、偶発的、特別、結果的、または懲罰的損害についても責任を負いません。"
+      },
+      "7": {
+        "title": "8. 規約の変更",
+        "content": "いつでもこれらの規約を変更する権利を留保します。更新された規約をこのページに掲載します。変更後にサービスを引き続き使用することは、同意とみなされます。"
+      },
+      "8": {
+        "title": "9. 準拠法",
+        "content": "これらの規約は、法の抵触規定に関わらず、適用される法律に従って解釈され、執行されます。"
+      },
+      "9": {
+        "title": "10. お問い合わせ",
+        "content": "これらの規約についてご質問がある場合は、会社概要ページを通じてお問い合わせください。"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "高速、無料、安全なファイル変換。登録不要。",
+    "tools": "ツール",
+    "company": "会社",
+    "formats": "フォーマット",
+    "formatsDesc": "JPG、PNG、WebP、PDF、MP3、MP4、CSV、JSON、XML、XLSX、ZIPなど。",
+    "madeWith": "みなさんのために心を込めて作りました。",
+    "for": "",
+    "autoDelete": "ファイルは1時間後に自動的に削除されます。",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "imageTools": "画像ツール",
+    "pdfTools": "PDFツール",
+    "audioVideo": "音声・動画",
+    "dataArchive": "データ・アーカイブ"
+  },
+  "converter": {
+    "dropzone": "ファイルをここにドラッグ、またはクリックして選択",
+    "dropzoneMulti": "ファイルをここにドラッグ、またはクリックして選択",
+    "maxSize": "最大ファイルサイズ：100MB",
+    "convert": "変換",
+    "converting": "変換中...",
+    "download": "ダウンロード",
+    "downloadAll": "すべてダウンロード",
+    "reset": "もう一度変換する",
+    "error": "変換に失敗しました。もう一度お試しください。",
+    "selectFormat": "出力形式を選択",
+    "quality": "品質",
+    "width": "幅",
+    "height": "高さ",
+    "maintainRatio": "アスペクト比を維持",
+    "processing": "処理中...",
+    "success": "完了！",
+    "fileReady": "ファイルの準備ができました",
+    "or": "または",
+    "browse": "ファイルを選ぶ",
+    "releaseToUpload": "ここで離してください",
+    "dragOrClick": "ドラッグするか、クリックしてファイルを選択",
+    "maxSizeLabel": "最大サイズ",
+    "upToFiles": "最大 {{count}} ファイル",
+    "dismiss": "閉じる",
+    "file": "ファイル",
+    "size": "サイズ",
+    "pages": "ページ",
+    "rows": "行",
+    "saved": "節約済み",
+    "dimensions": "寸法",
+    "convertAnother": "もう一度変換する"
+  },
+  "pages": {
+    "imageConverter": {
+      "title": "画像コンバーター",
+      "desc": "JPG、PNG、WebP、BMP、TIFF、GIF、AVIF形式間で変換。",
+      "convertTo": "変換先",
+      "dropLabel": "ここに画像をドロップ",
+      "dropSublabel": "JPG、PNG、WebP、BMP、TIFF、GIF、AVIFに対応",
+      "convertBtn": "{{format}} に変換",
+      "resultTitle": "画像変換完了！",
+      "infoText": "すべての変換は安全なサーバーで行われます。ファイルは1時間後に自動的に削除されます。可逆・非可逆形式の両方をサポート——WebPとAVIFは高品質で最高の圧縮を提供します。"
+    },
+    "imageResizer": {
+      "title": "画像リサイズ",
+      "desc": "正確なピクセル寸法またはパーセンテージスケールで画像サイズを変更。",
+      "resizeMode": "リサイズモード",
+      "byPixels": "ピクセルで",
+      "byPercent": "パーセンテージで",
+      "widthPx": "幅 (px)",
+      "heightPx": "高さ (px)",
+      "percentage": "パーセンテージ (%)",
+      "scalePercent": "スケールパーセンテージ",
+      "maintainAspect": "アスペクト比を維持",
+      "dropLabel": "ここに画像をドロップ",
+      "resizeBtn": "画像をリサイズ",
+      "resultTitle": "画像リサイズ完了！",
+      "infoText": "アスペクト比を維持したまま一方の寸法のみを指定すると、もう一方が自動的に計算されます。出力形式は入力形式と一致します。"
+    },
+    "imageCompressor": {
+      "title": "画像圧縮",
+      "desc": "品質をコントロールしながら画像ファイルサイズを削減。JPG、PNG、WebPに対応。",
+      "quality": "品質",
+      "smallest": "最小 (1)",
+      "best": "最高 (100)",
+      "highQuality": "高品質",
+      "goodQuality": "良好な品質",
+      "mediumQuality": "中程度の品質",
+      "lowQuality": "低品質（最小ファイル）",
+      "dropLabel": "ここに画像をドロップ",
+      "dropSublabel": "JPG、PNG、WebP、AVIFに対応",
+      "compressBtn": "画像を圧縮",
+      "resultTitle": "画像圧縮完了！",
+      "infoText": "品質80はほとんどのユースケースで最適です——品質の低下がほとんどなく、ファイルサイズが大幅に削減されます。ウェブ画像には60-75が効果的です。AVIFとWebP形式は同じ品質レベルでJPGより優れた圧縮を実現します。"
+    },
+    "imageCropper": {
+      "title": "画像トリミング",
+      "desc": "領域の座標と寸法を指定して画像をトリミング。",
+      "cropRegion": "トリミング領域（ピクセル）",
+      "leftOffset": "左側（Xオフセット）",
+      "topOffset": "上側（Yオフセット）",
+      "widthRequired": "幅 (px) *",
+      "heightRequired": "高さ (px) *",
+      "dropLabel": "ここに画像をドロップ",
+      "cropBtn": "画像をトリミング",
+      "resultTitle": "画像トリミング完了！",
+      "infoText": "トリミング座標は左上角（0, 0）から始まります。エラーを防ぐために、トリミング領域が元の画像寸法内に収まることを確認してください。"
+    },
+    "imageToPdf": {
+      "title": "画像をPDFに",
+      "desc": "1枚または複数の画像を単一のPDF文書に変換。",
+      "dropLabel": "ここに画像をドロップ",
+      "dropSublabel": "複数の画像をアップロード——各画像がページになります",
+      "imagesSelected": "{{count}} 枚の画像が選択されました——表示された順序で {{count}} ページのPDFに結合されます。",
+      "createBtn": "{{count}} 枚の画像からPDFを作成",
+      "createBtnPlural": "{{count}} 枚の画像からPDFを作成",
+      "resultTitle": "PDF作成完了！",
+      "infoText": "各画像がPDFの1ページになります。ページサイズは画像の寸法と一致します。一度に最大20枚の画像をアップロードできます。"
+    },
+    "pdfMerger": {
+      "title": "PDF結合",
+      "desc": "複数のPDFファイルを単一の文書に結合。",
+      "dropLabel": "ここにPDFファイルをドロップ",
+      "dropSublabel": "結合する2つ以上のPDFをアップロード",
+      "pdfSelected": "{{count}} 個のPDFが選択されました。PDFは上に表示された順序で結合されます。",
+      "pdfSelectedPlural": "{{count}} 個のPDFが選択されました。PDFは上に表示された順序で結合されます。",
+      "mergeBtn": "{{count}} 個のPDFを結合",
+      "resultTitle": "PDF結合完了！",
+      "infoText": "PDFはアップロードした順序で結合されます。結合前にドラッグして順序を変更できます。一度に最大20個のPDFを結合できます。"
+    },
+    "pdfSplitter": {
+      "title": "PDF分割",
+      "desc": "PDF文書からページの範囲を抽出。",
+      "pageRange": "ページ範囲",
+      "startPage": "開始ページ",
+      "endPage": "終了ページ（任意）",
+      "endPagePlaceholder": "最終ページ",
+      "endPageHint": "終了ページを空のままにすると、開始ページから文書の末尾まで抽出します。",
+      "dropLabel": "ここにPDFをドロップ",
+      "splitBtn": "PDFを分割",
+      "resultTitle": "PDF分割完了！",
+      "infoText": "ページ番号は1から始まります。単一ページを抽出するには、開始と終了に同じ番号を入力します。結果のPDFはすべての元の書式を保持します。"
+    },
+    "pdfCompressor": {
+      "title": "PDF圧縮",
+      "desc": "内部構造を最適化してPDFファイルサイズを削減。",
+      "dropLabel": "ここにPDFをドロップ",
+      "compressBtn": "PDFを圧縮",
+      "resultTitle": "PDF圧縮完了！",
+      "infoText": "PDF圧縮はオブジェクトストリームを最適化し、冗長なデータを削除することで機能します。結果はPDFの内容によって異なります。画像が多いPDFには、より良い結果を得るためにGhostscriptなどの専門ツールの使用を検討してください。"
+    },
+    "pdfToWord": {
+      "title": "PDFをWordに",
+      "desc": "PDF文書を編集可能なDOCX形式に変換。",
+      "advancedRequired": "高度なPDF処理が必要",
+      "advancedDesc": "PDFをWordに変換するには、専門のOCRライブラリ（TesseractやクラウドAPIなど）が必要です。この機能には追加のサーバーサイド依存関係が必要です。",
+      "step1": "pdf2docxをインストールするか、Adobe PDF ServicesなどのクラウドAPIを使用してください",
+      "step2": "レイアウト保存を伴う正確なテキスト抽出には、TesseractなどのOCRエンジンが必要です",
+      "step3": "ルートエンドポイント /api/pdf/to-word は実装の準備ができています",
+      "infoText": "その間、Google Docs（PDFをアップロードしてDocsで開く）、Microsoft Word オンライン、またはAdobe Acrobatなどのサービスを使用してPDFをDOCX形式に変換できます。"
+    },
+    "wordToPdf": {
+      "title": "WordをPDFに",
+      "desc": "DOCXファイルをPDF形式に変換。",
+      "libreRequired": "LibreOfficeまたはPandocが必要",
+      "libreDesc": "DOCXをPDFに変換するには、サーバーにLibreOfficeのヘッドレスモードまたはPandocがインストールされている必要があります。",
+      "infoText": "LibreOfficeをインストールしたら、サーバーの /api/pdf/word-to-pdf ルートに変換ロジックを追加します。ルートはchild_process execを使用してLibreOffice CLIを呼び出します。"
+    },
+    "audioConverter": {
+      "title": "音声コンバーター",
+      "desc": "MP3、WAV、AAC、FLAC、OGG、M4A形式間で変換。",
+      "outputFormat": "出力形式",
+      "bitrate": "ビットレート",
+      "ffmpegRequired": "FFmpegが必要",
+      "dropLabel": "ここに音声ファイルをドロップ",
+      "dropSublabel": "MP3、WAV、AAC、FLAC、OGG、M4Aに対応",
+      "convertBtn": "{{format}} に変換",
+      "resultTitle": "音声変換完了！",
+      "infoText": "音声変換にはサーバーにFFmpegがインストールされている必要があります。FLACはファイルが大きいですが可逆圧縮です。192kbpsのMP3はほとんどのリスナーにとって透明です。AACとOGGは同じビットレートでMP3よりも高い品質を提供します。"
+    },
+    "videoConverter": {
+      "title": "動画コンバーター",
+      "desc": "MP4、AVI、MOV、MKV、WebM形式間で変換。",
+      "outputFormat": "出力形式",
+      "quality": "品質",
+      "highQuality": "高品質",
+      "highQualityDesc": "ファイルが大きく、最高品質",
+      "medium": "中程度",
+      "mediumDesc": "サイズと品質のバランス",
+      "lowQuality": "低品質",
+      "lowQualityDesc": "最小ファイルサイズ",
+      "ffmpegRequired": "FFmpegが必要",
+      "dropLabel": "ここに動画ファイルをドロップ",
+      "dropSublabel": "MP4、AVI、MOV、MKV、WebM、FLVに対応",
+      "convertBtn": "{{format}} に変換",
+      "resultTitle": "動画変換完了！",
+      "processingNote": "ファイルサイズによっては動画変換に数分かかる場合があります...",
+      "infoText": "動画変換にはFFmpegが必要です。大きな動画ファイルの処理には数分かかる場合があります。H.264を使用したMP4はウェブとモバイルデバイスで最も互換性の高い形式です。"
+    },
+    "videoToGif": {
+      "title": "動画をGIFに",
+      "desc": "動画クリップをカスタム設定でアニメーションGIFに変換。",
+      "startTime": "開始時間（秒）",
+      "duration": "再生時間（最大30秒）",
+      "fps": "FPS（フレーム/秒）",
+      "widthPixels": "幅（ピクセル）",
+      "preview": "プレビュー：",
+      "ffmpegRequired": "FFmpegが必要",
+      "dropLabel": "ここに動画をドロップ",
+      "createBtn": "GIFを作成",
+      "resultTitle": "GIF作成完了！",
+      "infoText": "ファイルサイズを小さくするためにGIFを短く（2〜8秒）保ちましょう。FPSが低いほどファイルが小さくなります。幅480pxが良いバランスです。非常に大きなGIFファイルを防ぐために最大再生時間は30秒に制限されています。"
+    },
+    "videoCompressor": {
+      "title": "動画圧縮",
+      "desc": "H.264エンコーディングを使用して品質を維持しながら動画ファイルサイズを削減。",
+      "compressionLevel": "圧縮レベル",
+      "highQuality": "高品質",
+      "highQualityDesc": "約20%縮小",
+      "medium": "中程度",
+      "mediumDesc": "約40〜60%縮小",
+      "maxCompression": "最大圧縮",
+      "maxCompressionDesc": "約70%以上縮小",
+      "ffmpegRequired": "FFmpegが必要",
+      "dropLabel": "ここに動画をドロップ",
+      "compressBtn": "動画を圧縮",
+      "resultTitle": "動画圧縮完了！",
+      "processingNote": "大きなファイルの圧縮には数分かかる場合があります...",
+      "infoText": "動画は優れた圧縮を提供するH.264（libx264）で再エンコードされます。出力形式は入力ファイルと一致します。非常に大きなファイルの最良の結果のために、まず動画を分割することを検討してください。"
+    },
+    "csvToJson": {
+      "title": "CSVをJSONに",
+      "desc": "CSVスプレッドシートデータをJSON形式に変換。",
+      "preview": "プレビュー（最初の3行）：",
+      "dropLabel": "ここにCSVファイルをドロップ",
+      "convertBtn": "JSONに変換",
+      "resultTitle": "CSVをJSONに変換完了！",
+      "infoText": "CSVの最初の行には列ヘッダーが必要です。カンマ（,）とセミコロン（;）の区切り文字の両方がサポートされています。内部にカンマがある引用フィールドも正しく処理されます。"
+    },
+    "jsonToCsv": {
+      "title": "JSONをCSVに",
+      "desc": "JSON配列とオブジェクトをCSVスプレッドシート形式に変換。",
+      "dropLabel": "ここにJSONファイルをドロップ",
+      "convertBtn": "CSVに変換",
+      "resultTitle": "JSONをCSVに変換完了！",
+      "infoText": "JSONはオブジェクトの配列または配列値を持つオブジェクトである必要があります。ネストされたオブジェクトはアンダースコア表記で平坦化されます（例：address_city）。オブジェクト内の配列は文字列化されます。"
+    },
+    "csvToXlsx": {
+      "title": "CSVをExcel（XLSX）に",
+      "desc": "CSVファイルを自動フォーマットされた列を持つExcelスプレッドシート形式に変換。",
+      "dropLabel": "ここにCSVファイルをドロップ",
+      "convertBtn": "XLSXに変換",
+      "resultTitle": "Excelファイル作成完了！",
+      "infoText": "CSVは最初の行をヘッダーとしたExcel XLSXファイルに変換されます。列幅は自動的に調整されます。Microsoft Excel、LibreOffice Calc、またはGoogle Sheetsで結果を開いてください。"
+    },
+    "jsonToXml": {
+      "title": "JSONをXMLに",
+      "desc": "JSONデータを適切にフォーマットされたXML文書に変換。",
+      "rootElementName": "ルート要素名",
+      "arrayItemElement": "配列アイテム要素",
+      "dropLabel": "ここにJSONファイルをドロップ",
+      "convertBtn": "XMLに変換",
+      "resultTitle": "JSONをXMLに変換完了！",
+      "infoText": "JSON配列は指定されたアイテム要素名で囲まれます。ネストされたオブジェクトはネストされたXML要素として表現されます。出力にはUTF-8エンコーディングのXML宣言ヘッダーが含まれます。"
+    },
+    "xlsxToCsv": {
+      "title": "ExcelをCSVに",
+      "desc": "Excel XLSXファイルをCSV形式に変換。",
+      "sheetName": "シート名（任意）",
+      "sheetNamePlaceholder": "空のままにすると最初のシートを使用",
+      "availableSheets": "利用可能なシート：{{sheets}}。特定のシートを変換するには「別のファイルを変換」をクリックしてシート名を入力してください。",
+      "dropLabel": "ここにExcelファイルをドロップ",
+      "dropSublabel": "XLSXおよびXLS形式に対応",
+      "convertBtn": "CSVに変換",
+      "resultTitle": "ExcelをCSVに変換完了！",
+      "infoText": "デフォルトでは、ワークブックの最初のシートが変換されます。Excelファイルに複数のシートがある場合は、正確なシート名を指定してください。シート名は大文字と小文字が区別されます。"
+    },
+    "zipCreator": {
+      "title": "ZIP作成",
+      "desc": "複数のファイルを単一のZIPアーカイブに圧縮。",
+      "dropLabel": "ここに圧縮するファイルをドロップ",
+      "dropSublabel": "任意のファイル形式、最大50ファイル",
+      "filesSelected": "圧縮用に {{count}} ファイルが選択されました",
+      "filesSelectedPlural": "圧縮用に {{count}} ファイルが選択されました",
+      "archiveContains": "アーカイブには {{count}} 個のファイルが含まれています",
+      "createBtn": "ZIPを作成（{{count}} ファイル）",
+      "resultTitle": "ZIPアーカイブ作成完了！",
+      "infoText": "ファイルは最大圧縮レベルで圧縮されます。元のファイル名はZIPアーカイブに保持されます。一度に最大50ファイルを追加できます。"
+    },
+    "zipExtractor": {
+      "title": "ZIP解凍",
+      "desc": "ZIPアーカイブからファイルを抽出してダウンロード。",
+      "extractedFiles": "抽出されたファイル（{{count}} 件）：",
+      "andMore": "...さらに {{count}} 件のファイル",
+      "dropLabel": "ここにZIPファイルをドロップ",
+      "extractBtn": "ZIPを解凍",
+      "resultTitle": "ZIP解凍完了！",
+      "infoText": "ZIPの内容が抽出され、ダウンロード用に新しいZIPに再パッケージされます。ダウンロード前に内容を確認できます。ファイルはサーバーで安全に処理されます。"
+    }
+  },
+  "lang": {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "ja": "日本語"
+  },
+  "toast": {
+    "noFile": "ファイルをアップロードしてください",
+    "noImage": "画像をアップロードしてください",
+    "noPdf": "PDFファイルをアップロードしてください",
+    "noZip": "ZIPファイルをアップロードしてください",
+    "noCsv": "CSVファイルをアップロードしてください",
+    "noJson": "JSONファイルをアップロードしてください",
+    "noExcel": "Excelファイルをアップロードしてください",
+    "needAtLeast2Pdf": "PDFファイルを2つ以上アップロードしてください",
+    "needAtLeastOneImage": "画像を1つ以上アップロードしてください",
+    "needAtLeastOneFile": "ファイルを1つ以上アップロードしてください",
+    "enterCropSize": "切り取りの幅と高さを入力してください",
+    "enterSize": "幅または高さを入力してください",
+    "convertSuccess": "変換が完了しました！",
+    "compressSuccess": "圧縮が完了しました！",
+    "mergeSuccess": "結合が完了しました！",
+    "splitSuccess": "分割が完了しました！",
+    "createSuccess": "作成が完了しました！",
+    "extractSuccess": "解凍が完了しました！",
+    "cropSuccess": "画像のトリミングが完了しました！",
+    "resizeSuccess": "画像のリサイズが完了しました！"
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "nav": {
+    "imageTools": "图片工具",
+    "pdfTools": "PDF工具",
+    "audioVideo": "音频 & 视频",
+    "dataTools": "数据工具"
+  },
+  "home": {
+    "badge": "免费 · 快速 · 无需注册",
+    "title1": "转换任意文件",
+    "title2": "即时完成",
+    "subtitle": "图片、PDF、音频、视频和数据文件——所有转换一站搞定。无需安装，无水印，完全免费。",
+    "searchPlaceholder": "搜索工具...（例如：'转换jpg'，'合并pdf'）",
+    "noResults": "未找到相关工具：",
+    "stats": {
+      "tools": "转换工具",
+      "formats": "文件格式",
+      "maxSize": "最大文件大小",
+      "free": "完全免费"
+    },
+    "whyTitle": "为什么选择 FileConvert？",
+    "whySubtitle": "简单、快速、保护隐私——这就是我们的设计初衷。",
+    "features": {
+      "secure": {
+        "title": "安全私密",
+        "desc": "文件仅用于转换，1小时后自动彻底删除，不会被查看或保存。"
+      },
+      "fast": {
+        "title": "极速转换",
+        "desc": "服务器端处理，转换通常在几秒内完成，无需等待。"
+      },
+      "noSignup": {
+        "title": "无需注册",
+        "desc": "无需注册或登录，打开即用，完全免费。"
+      },
+      "quality": {
+        "title": "高质量输出",
+        "desc": "每次转换都能得到清晰、高质量的结果。"
+      }
+    }
+  },
+  "tools": {
+    "image": {
+      "convert": {
+        "label": "图片转换器",
+        "desc": "在JPG、PNG、WebP、GIF格式间转换"
+      },
+      "resize": {
+        "label": "图片缩放",
+        "desc": "按像素或百分比缩放"
+      },
+      "compress": {
+        "label": "图片压缩器",
+        "desc": "通过质量控制减小图片文件大小"
+      },
+      "toPdf": {
+        "label": "图片转PDF",
+        "desc": "将一张或多张图片转换为PDF"
+      },
+      "crop": {
+        "label": "图片裁剪",
+        "desc": "将图片裁剪为精确尺寸"
+      }
+    },
+    "pdf": {
+      "merge": {
+        "label": "PDF合并",
+        "desc": "将多个PDF文件合并为一个"
+      },
+      "split": {
+        "label": "PDF拆分",
+        "desc": "从PDF中提取特定页面"
+      },
+      "compress": {
+        "label": "PDF压缩器",
+        "desc": "减小PDF文件大小"
+      },
+      "toWord": {
+        "label": "PDF转Word",
+        "desc": "将PDF转换为可编辑的Word文档"
+      },
+      "wordToPdf": {
+        "label": "Word转PDF",
+        "desc": "将Word文档转换为PDF"
+      }
+    },
+    "audio": {
+      "convert": {
+        "label": "音频转换器",
+        "desc": "转换MP3、WAV、AAC、FLAC、OGG"
+      }
+    },
+    "video": {
+      "convert": {
+        "label": "视频转换器",
+        "desc": "转换MP4、AVI、MOV、MKV、WebM"
+      },
+      "toGif": {
+        "label": "视频转GIF",
+        "desc": "将视频片段转换为动态GIF"
+      },
+      "compress": {
+        "label": "视频压缩器",
+        "desc": "减小视频文件大小"
+      }
+    },
+    "data": {
+      "csvToJson": {
+        "label": "CSV转JSON",
+        "desc": "将CSV数据转换为JSON格式"
+      },
+      "jsonToCsv": {
+        "label": "JSON转CSV",
+        "desc": "将JSON数组转换为CSV"
+      },
+      "csvToXlsx": {
+        "label": "CSV转XLSX",
+        "desc": "将CSV转换为Excel电子表格"
+      },
+      "jsonToXml": {
+        "label": "JSON转XML",
+        "desc": "将JSON转换为XML格式"
+      },
+      "xlsvToCsv": {
+        "label": "XLSX转CSV",
+        "desc": "将Excel转换为CSV格式"
+      }
+    },
+    "archive": {
+      "zipCreator": {
+        "label": "ZIP创建器",
+        "desc": "从多个文件创建ZIP压缩包"
+      },
+      "zipExtractor": {
+        "label": "ZIP解压器",
+        "desc": "从ZIP压缩包中提取文件"
+      }
+    }
+  },
+  "categories": {
+    "imageTools": "图片工具",
+    "pdfTools": "PDF工具",
+    "audioTools": "音频工具",
+    "videoTools": "视频工具",
+    "dataTools": "数据工具",
+    "archiveTools": "压缩工具"
+  },
+  "about": {
+    "title": "关于FileConvert",
+    "subtitle": "无需注册，无水印，无繁琐步骤。上传文件，一键转换，下载完成。",
+    "storyTitle": "我们的故事",
+    "story1": "FileConvert 的诞生，是因为我们受够了那些广告满天飞、强制注册、限制文件大小、还在结果上打水印的转换工具。",
+    "story2": "所以我们自己做了一个——干净、快速、真正免费。上传 → 选格式 → 转换 → 下载，就这么简单。",
+    "story3": "图片处理使用 Sharp，PDF 使用 pdf-lib，电子表格使用 XLSX.js，都是经过验证的开源库。",
+    "valuesTitle": "我们的价值观",
+    "values": {
+      "speed": {
+        "title": "速度优先",
+        "desc": "所有转换通过优化库在服务器端运行，确保最快的结果。无客户端延迟。"
+      },
+      "privacy": {
+        "title": "隐私第一",
+        "desc": "您的文件永远不会被永久存储。所有上传的文件会在1小时后自动删除。我们从不读取、分析或分享您的文件。"
+      },
+      "open": {
+        "title": "开放透明",
+        "desc": "基于 Sharp、pdf-lib、XLSX 等开源库构建，代码透明可查，技术栈清晰。"
+      },
+      "free": {
+        "title": "永远免费",
+        "desc": "FileConvert现在和将来都会免费使用。我们通过非侵入性广告支持这个项目。"
+      }
+    },
+    "techTitle": "技术栈"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "有问题、建议，或发现了bug？我们很乐意听取您的意见。",
+    "email": "电子邮件",
+    "feedback": "反馈",
+    "feedbackDesc": "欢迎提交bug报告和功能请求",
+    "responseTime": "响应时间",
+    "responseDesc": "我们通常在1-2个工作日内回复",
+    "formTitle": "发送消息",
+    "name": "姓名",
+    "namePlaceholder": "您的姓名",
+    "emailPlaceholder": "您的邮箱@示例.com",
+    "subject": "主题",
+    "subjectPlaceholder": "这是关于什么？",
+    "message": "消息",
+    "messagePlaceholder": "请描述您的问题或反馈...",
+    "send": "发送消息",
+    "directEmail": "或直接发送邮件至",
+    "successTitle": "消息已发送！",
+    "successDesc": "邮件客户端应该已经自动打开了。如果没有，请直接发邮件至",
+    "sendAnother": "发送另一条消息"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "updated": "最后更新：2026年3月",
+    "intro": "FileConvert致力于保护您的隐私。本政策说明了您使用我们的文件转换服务时我们如何处理信息。简而言之：",
+    "introHighlight": "我们不出售您的数据，不读取您的文件，并自动删除所有内容。",
+    "sections": {
+      "0": {
+        "title": "1. 您上传的文件",
+        "content": "当您上传文件进行转换时，文件仅临时存储在我们的服务器上以执行所请求的转换。无论转换是否成功，文件在1小时后将自动永久删除。\n\n我们不会读取、分析、复制、共享或出售您的文件内容。文件在隔离的临时目录中处理，其他用户无法访问。"
+      },
+      "1": {
+        "title": "2. 我们收集的信息",
+        "content": "我们收集最少量的技术信息以运营服务：\n• 服务器访问日志（IP地址、时间戳、请求URL）——出于安全目的保留7天\n• 汇总使用统计数据（执行了多少次转换、使用了哪些工具）——已匿名化，无个人身份信息\n\n我们不使用cookie进行跟踪。我们不收集您的姓名、电子邮件或任何个人身份信息。"
+      },
+      "2": {
+        "title": "3. 广告",
+        "content": "我们展示广告以支持此服务的免费运营。我们的广告提供商可能使用cookie根据您的浏览历史提供相关广告。您可以通过浏览器设置或广告提供商的选择退出工具来选择退出个性化广告。\n\n广告收入是支持这项免费服务的唯一方式。"
+      },
+      "3": {
+        "title": "4. 第三方服务",
+        "content": "我们可能使用以下第三方服务：\n• 内容分发网络（CDN）提供静态资源\n• Google AdSense或类似广告服务\n\n这些服务有其自己的隐私政策。我们建议您查阅它们。"
+      },
+      "4": {
+        "title": "5. 数据安全",
+        "content": "我们对所有数据传输使用HTTPS。文件上传在安全环境中的服务器端处理。我们实施合理的技术措施以在转换过程中保护您的数据。\n\n但是，没有任何互联网传输是100%安全的。我们建议不要上传包含机密个人信息的高度敏感文件。"
+      },
+      "5": {
+        "title": "6. 儿童隐私",
+        "content": "FileConvert不针对13岁以下的儿童。我们不会故意收集儿童的个人信息。如果您认为儿童使用了此服务，请联系我们。"
+      },
+      "6": {
+        "title": "7. 政策变更",
+        "content": "我们可能会不时更新此隐私政策。更改将以更新的日期发布在此页面上。更改后继续使用服务即表示接受新政策。"
+      },
+      "7": {
+        "title": "8. 联系我们",
+        "content": "如果您对此隐私政策有疑问，请通过我们关于页面提供的信息联系我们。"
+      }
+    }
+  },
+  "terms": {
+    "title": "服务条款",
+    "updated": "最后更新：2026年3月",
+    "intro": "使用FileConvert前，请仔细阅读这些服务条款。使用我们的服务即表示您同意这些条款。",
+    "sections": {
+      "0": {
+        "title": "1. 接受条款",
+        "content": "通过访问和使用FileConvert（\"服务\"），您同意受这些服务条款的约束。如果您不同意，请不要使用该服务。"
+      },
+      "1": {
+        "title": "2. 服务说明",
+        "content": "FileConvert提供免费的在线文件转换服务，允许用户在各种格式之间转换文件，包括图片、PDF、音频、视频和数据文件。服务以\"现状\"提供，不提供任何保证。"
+      },
+      "2": {
+        "title": "3. 可接受的使用",
+        "content": "您同意仅将服务用于合法目的。您不得：\n• 上传包含恶意软件、病毒或恶意代码的文件\n• 上传包含非法内容的文件（CSAM、您不拥有的受版权保护的材料等）\n• 尝试使服务过载或攻击服务\n• 使用服务绕过复制保护或DRM\n• 使用自动化脚本滥用服务\n• 未经他人同意上传包含他人个人身份信息的文件"
+      },
+      "3": {
+        "title": "4. 文件所有权与权利",
+        "content": "您声明您拥有或有权转换您上传的任何文件。您保留对文件的所有所有权。我们不对您的内容主张任何所有权。\n\n通过上传文件，您授予我们仅用于处理转换并将结果返回给您的临时、有限许可。此许可在文件被删除时（1小时后）终止。"
+      },
+      "4": {
+        "title": "5. 服务限制",
+        "content": "服务有以下限制：\n• 最大文件大小：每个文件100MB\n• 文件在1小时后删除\n• 视频和音频转换需要安装FFmpeg\n• 我们不保证所有文件类型的转换精度\n• 不保证服务可用性——我们可能会有停机时间"
+      },
+      "5": {
+        "title": "6. 免责声明",
+        "content": "服务以\"现状\"和\"可用状态\"提供，不提供任何种类的保证。我们否认所有明示或暗示的保证，包括适销性、特定用途的适用性和不侵权。\n\n我们不保证：\n• 服务将不间断或无错误\n• 转换结果将准确或完整\n• 服务将不含病毒或有害组件"
+      },
+      "6": {
+        "title": "7. 责任限制",
+        "content": "在法律允许的最大范围内，我们不对因使用或无法使用服务而导致的任何间接、偶然、特殊、后果性或惩罚性损害承担责任，包括数据或利润损失。"
+      },
+      "7": {
+        "title": "8. 条款变更",
+        "content": "我们保留随时修改这些条款的权利。我们将在此页面上发布更新的条款。更改后继续使用服务即表示接受。"
+      },
+      "8": {
+        "title": "9. 适用法律",
+        "content": "这些条款应根据适用法律解释和执行，不考虑其冲突法条款。"
+      },
+      "9": {
+        "title": "10. 联系我们",
+        "content": "如果您对这些条款有任何疑问，请通过我们的关于页面联系我们。"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "快速、免费、安全的文件转换。无需注册。",
+    "tools": "工具",
+    "company": "公司",
+    "formats": "格式",
+    "formatsDesc": "JPG、PNG、WebP、PDF、MP3、MP4、CSV、JSON、XML、XLSX、ZIP等更多格式。",
+    "madeWith": "用心为大家打造。",
+    "for": "",
+    "autoDelete": "文件将在1小时后自动删除。",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "imageTools": "图片工具",
+    "pdfTools": "PDF工具",
+    "audioVideo": "音频 & 视频",
+    "dataArchive": "数据 & 存档"
+  },
+  "converter": {
+    "dropzone": "拖拽文件到此处，或点击选择",
+    "dropzoneMulti": "拖拽文件到此处，或点击选择",
+    "maxSize": "最大文件大小：100MB",
+    "convert": "转换",
+    "converting": "转换中...",
+    "download": "下载",
+    "downloadAll": "全部下载",
+    "reset": "重新转换",
+    "error": "转换失败。请重试。",
+    "selectFormat": "选择输出格式",
+    "quality": "质量",
+    "width": "宽度",
+    "height": "高度",
+    "maintainRatio": "保持宽高比",
+    "processing": "处理中...",
+    "success": "完成！",
+    "fileReady": "您的文件已准备好",
+    "or": "或",
+    "browse": "选择文件",
+    "releaseToUpload": "松开即可上传",
+    "dragOrClick": "拖拽文件或点击选择",
+    "maxSizeLabel": "最大大小",
+    "upToFiles": "最多 {{count}} 个文件",
+    "dismiss": "关闭",
+    "file": "文件",
+    "size": "大小",
+    "pages": "页数",
+    "rows": "行数",
+    "saved": "已节省",
+    "dimensions": "尺寸",
+    "convertAnother": "重新转换"
+  },
+  "pages": {
+    "imageConverter": {
+      "title": "图片转换器",
+      "desc": "在JPG、PNG、WebP、BMP、TIFF、GIF和AVIF格式间转换。",
+      "convertTo": "转换为",
+      "dropLabel": "将图片拖放到此处",
+      "dropSublabel": "支持JPG、PNG、WebP、BMP、TIFF、GIF、AVIF",
+      "convertBtn": "转换为 {{format}}",
+      "resultTitle": "图片转换完成！",
+      "infoText": "所有转换都在我们的安全服务器上进行。您的文件在1小时后自动删除。我们支持无损和有损格式——WebP和AVIF在高质量下提供最佳压缩。"
+    },
+    "imageResizer": {
+      "title": "图片缩放",
+      "desc": "按精确像素尺寸或百分比比例调整图片大小。",
+      "resizeMode": "缩放模式",
+      "byPixels": "按像素",
+      "byPercent": "按百分比",
+      "widthPx": "宽度 (px)",
+      "heightPx": "高度 (px)",
+      "percentage": "百分比 (%)",
+      "scalePercent": "缩放百分比",
+      "maintainAspect": "保持宽高比",
+      "dropLabel": "将图片拖放到此处",
+      "resizeBtn": "调整图片大小",
+      "resultTitle": "图片大小调整完成！",
+      "infoText": "当仅指定一个尺寸时保持宽高比，另一个尺寸会自动计算。输出格式与输入格式匹配。"
+    },
+    "imageCompressor": {
+      "title": "图片压缩器",
+      "desc": "在控制质量的同时减小图片文件大小。支持JPG、PNG、WebP。",
+      "quality": "质量",
+      "smallest": "最小 (1)",
+      "best": "最佳 (100)",
+      "highQuality": "高质量",
+      "goodQuality": "良好质量",
+      "mediumQuality": "中等质量",
+      "lowQuality": "低质量（最小文件）",
+      "dropLabel": "将图片拖放到此处",
+      "dropSublabel": "支持JPG、PNG、WebP、AVIF",
+      "compressBtn": "压缩图片",
+      "resultTitle": "图片压缩完成！",
+      "infoText": "质量80是大多数情况下的最佳选择——文件大小显著减小，质量损失几乎不可察觉。对于网页图片，60-75效果很好。AVIF和WebP格式在相同质量级别下比JPG实现更好的压缩。"
+    },
+    "imageCropper": {
+      "title": "图片裁剪",
+      "desc": "通过指定区域坐标和尺寸来裁剪图片。",
+      "cropRegion": "裁剪区域（像素）",
+      "leftOffset": "左侧（X偏移）",
+      "topOffset": "顶部（Y偏移）",
+      "widthRequired": "宽度 (px) *",
+      "heightRequired": "高度 (px) *",
+      "dropLabel": "将图片拖放到此处",
+      "cropBtn": "裁剪图片",
+      "resultTitle": "图片裁剪完成！",
+      "infoText": "裁剪坐标从左上角（0, 0）开始。确保裁剪区域在原始图片尺寸内以避免错误。"
+    },
+    "imageToPdf": {
+      "title": "图片转PDF",
+      "desc": "将一张或多张图片转换为单个PDF文档。",
+      "dropLabel": "将图片拖放到此处",
+      "dropSublabel": "上传多张图片——每张成为一页",
+      "imagesSelected": "已选择 {{count}} 张图片——将按显示顺序合并为 {{count}} 页PDF。",
+      "createBtn": "从 {{count}} 张图片创建PDF",
+      "createBtnPlural": "从 {{count}} 张图片创建PDF",
+      "resultTitle": "PDF创建完成！",
+      "infoText": "每张图片成为PDF中的一页。页面大小与图片尺寸匹配。您一次最多可上传20张图片。"
+    },
+    "pdfMerger": {
+      "title": "PDF合并",
+      "desc": "将多个PDF文件合并为单个文档。",
+      "dropLabel": "将PDF文件拖放到此处",
+      "dropSublabel": "上传2个或更多PDF进行合并",
+      "pdfSelected": "已选择 {{count}} 个PDF。PDF将按上方显示的顺序合并。",
+      "pdfSelectedPlural": "已选择 {{count}} 个PDF。PDF将按上方显示的顺序合并。",
+      "mergeBtn": "合并 {{count}} 个PDF",
+      "resultTitle": "PDF合并完成！",
+      "infoText": "PDF按您上传的顺序合并。合并前可拖动重新排序。一次最多可合并20个PDF。"
+    },
+    "pdfSplitter": {
+      "title": "PDF拆分",
+      "desc": "从PDF文档中提取一系列页面。",
+      "pageRange": "页面范围",
+      "startPage": "起始页",
+      "endPage": "结束页（可选）",
+      "endPagePlaceholder": "最后一页",
+      "endPageHint": "将结束页留空以从起始页提取到文档末尾。",
+      "dropLabel": "将PDF拖放到此处",
+      "splitBtn": "拆分PDF",
+      "resultTitle": "PDF拆分完成！",
+      "infoText": "页码从1开始。要提取单页，请在起始和结束都输入相同的数字。生成的PDF保留所有原始格式。"
+    },
+    "pdfCompressor": {
+      "title": "PDF压缩器",
+      "desc": "通过优化内部结构减小PDF文件大小。",
+      "dropLabel": "将PDF拖放到此处",
+      "compressBtn": "压缩PDF",
+      "resultTitle": "PDF压缩完成！",
+      "infoText": "PDF压缩通过优化对象流和删除冗余数据来工作。结果因PDF内容而异。对于以图片为主的PDF，考虑使用Ghostscript等专业工具以获得更好的结果。"
+    },
+    "pdfToWord": {
+      "title": "PDF转Word",
+      "desc": "将PDF文档转换为可编辑的DOCX格式。",
+      "advancedRequired": "需要高级PDF处理",
+      "advancedDesc": "PDF转Word转换需要专业的OCR库（如Tesseract或云API）。此功能需要额外的服务器端依赖项。",
+      "step1": "安装pdf2docx或使用Adobe PDF Services等云API",
+      "step2": "要进行保留布局的精确文本提取，需要Tesseract等OCR引擎",
+      "step3": "路由端点/api/pdf/to-word已准备好实现",
+      "infoText": "与此同时，您可以使用Google Docs（上传PDF并用Docs打开）、Microsoft Word在线版或Adobe Acrobat等免费服务将PDF转换为DOCX格式。"
+    },
+    "wordToPdf": {
+      "title": "Word转PDF",
+      "desc": "将DOCX文件转换为PDF格式。",
+      "libreRequired": "需要LibreOffice或Pandoc",
+      "libreDesc": "DOCX转PDF转换需要在服务器上安装LibreOffice无头模式或Pandoc。",
+      "infoText": "安装LibreOffice后，将转换逻辑添加到服务器中的/api/pdf/word-to-pdf路由。该路由使用child_process exec调用LibreOffice CLI。"
+    },
+    "audioConverter": {
+      "title": "音频转换器",
+      "desc": "在MP3、WAV、AAC、FLAC、OGG和M4A格式间转换。",
+      "outputFormat": "输出格式",
+      "bitrate": "比特率",
+      "ffmpegRequired": "需要FFmpeg",
+      "dropLabel": "将音频文件拖放到此处",
+      "dropSublabel": "支持MP3、WAV、AAC、FLAC、OGG、M4A",
+      "convertBtn": "转换为 {{format}}",
+      "resultTitle": "音频转换完成！",
+      "infoText": "音频转换需要在服务器上安装FFmpeg。FLAC是无损的但文件较大。192kbps的MP3对大多数听众来说是透明的。AAC和OGG在相同比特率下提供比MP3更好的质量。"
+    },
+    "videoConverter": {
+      "title": "视频转换器",
+      "desc": "在MP4、AVI、MOV、MKV和WebM格式间转换。",
+      "outputFormat": "输出格式",
+      "quality": "质量",
+      "highQuality": "高质量",
+      "highQualityDesc": "文件较大，质量最佳",
+      "medium": "中等",
+      "mediumDesc": "大小与质量的平衡",
+      "lowQuality": "低质量",
+      "lowQualityDesc": "文件最小",
+      "ffmpegRequired": "需要FFmpeg",
+      "dropLabel": "将视频文件拖放到此处",
+      "dropSublabel": "支持MP4、AVI、MOV、MKV、WebM、FLV",
+      "convertBtn": "转换为 {{format}}",
+      "resultTitle": "视频转换完成！",
+      "processingNote": "视频转换可能需要几分钟，具体取决于文件大小...",
+      "infoText": "视频转换需要FFmpeg。大型视频文件可能需要几分钟处理。带H.264的MP4是网页和移动设备最兼容的格式。"
+    },
+    "videoToGif": {
+      "title": "视频转GIF",
+      "desc": "将视频片段转换为具有自定义设置的动态GIF。",
+      "startTime": "开始时间（秒）",
+      "duration": "持续时间（最长30秒）",
+      "fps": "帧率（FPS）",
+      "widthPixels": "宽度（像素）",
+      "preview": "预览：",
+      "ffmpegRequired": "需要FFmpeg",
+      "dropLabel": "将视频拖放到此处",
+      "createBtn": "创建GIF",
+      "resultTitle": "GIF创建完成！",
+      "infoText": "保持GIF简短（2-8秒）以减小文件大小。较低的帧率可创建较小的文件。480px的宽度是一个很好的平衡。最大持续时间限制为30秒以防止生成非常大的GIF文件。"
+    },
+    "videoCompressor": {
+      "title": "视频压缩器",
+      "desc": "使用H.264编码在保留质量的同时减小视频文件大小。",
+      "compressionLevel": "压缩级别",
+      "highQuality": "高质量",
+      "highQualityDesc": "~缩小20%",
+      "medium": "中等",
+      "mediumDesc": "~缩小40-60%",
+      "maxCompression": "最大压缩",
+      "maxCompressionDesc": "~缩小70%以上",
+      "ffmpegRequired": "需要FFmpeg",
+      "dropLabel": "将视频拖放到此处",
+      "compressBtn": "压缩视频",
+      "resultTitle": "视频压缩完成！",
+      "processingNote": "大型文件的压缩可能需要几分钟...",
+      "infoText": "视频使用提供出色压缩的H.264（libx264）重新编码。输出格式与输入文件匹配。对于非常大的文件，考虑先分割视频以获得最佳结果。"
+    },
+    "csvToJson": {
+      "title": "CSV转JSON",
+      "desc": "将CSV电子表格数据转换为JSON格式。",
+      "preview": "预览（前3行）：",
+      "dropLabel": "将CSV文件拖放到此处",
+      "convertBtn": "转换为JSON",
+      "resultTitle": "CSV转换为JSON完成！",
+      "infoText": "CSV的第一行必须包含列标题。支持逗号（,）和分号（;）分隔符。正确处理内部有逗号的引用字段。"
+    },
+    "jsonToCsv": {
+      "title": "JSON转CSV",
+      "desc": "将JSON数组和对象转换为CSV电子表格格式。",
+      "dropLabel": "将JSON文件拖放到此处",
+      "convertBtn": "转换为CSV",
+      "resultTitle": "JSON转换为CSV完成！",
+      "infoText": "JSON必须是对象数组或具有数组值的对象。嵌套对象将使用下划线表示法展平（例如：address_city）。对象中的数组将被字符串化。"
+    },
+    "csvToXlsx": {
+      "title": "CSV转Excel（XLSX）",
+      "desc": "将CSV文件转换为自动格式化列的Excel电子表格格式。",
+      "dropLabel": "将CSV文件拖放到此处",
+      "convertBtn": "转换为XLSX",
+      "resultTitle": "Excel文件创建完成！",
+      "infoText": "CSV被转换为以第一行为标题的Excel XLSX文件。列宽自动调整。在Microsoft Excel、LibreOffice Calc或Google Sheets中打开结果。"
+    },
+    "jsonToXml": {
+      "title": "JSON转XML",
+      "desc": "将JSON数据转换为格式良好的XML文档。",
+      "rootElementName": "根元素名称",
+      "arrayItemElement": "数组项元素",
+      "dropLabel": "将JSON文件拖放到此处",
+      "convertBtn": "转换为XML",
+      "resultTitle": "JSON转换为XML完成！",
+      "infoText": "JSON数组被包装在指定的项元素名称中。嵌套对象表示为嵌套的XML元素。输出包含带UTF-8编码的XML声明头。"
+    },
+    "xlsxToCsv": {
+      "title": "Excel转CSV",
+      "desc": "将Excel XLSX文件转换为CSV格式。",
+      "sheetName": "工作表名称（可选）",
+      "sheetNamePlaceholder": "留空使用第一个工作表",
+      "availableSheets": "可用工作表：{{sheets}}。要转换特定工作表，点击\"转换其他文件\"并输入工作表名称。",
+      "dropLabel": "将Excel文件拖放到此处",
+      "dropSublabel": "支持XLSX和XLS格式",
+      "convertBtn": "转换为CSV",
+      "resultTitle": "Excel转换为CSV完成！",
+      "infoText": "默认情况下，转换工作簿的第一个工作表。如果您的Excel文件有多个工作表，请指定确切的工作表名称。工作表名称区分大小写。"
+    },
+    "zipCreator": {
+      "title": "ZIP创建器",
+      "desc": "将多个文件压缩为单个ZIP压缩包。",
+      "dropLabel": "将要压缩的文件拖放到此处",
+      "dropSublabel": "任意文件类型，最多50个文件",
+      "filesSelected": "已选择 {{count}} 个文件进行压缩",
+      "filesSelectedPlural": "已选择 {{count}} 个文件进行压缩",
+      "archiveContains": "压缩包包含 {{count}} 个文件",
+      "createBtn": "创建ZIP（{{count}} 个文件）",
+      "resultTitle": "ZIP压缩包创建完成！",
+      "infoText": "文件以最大压缩级别压缩。原始文件名保留在ZIP压缩包中。您一次最多可添加50个文件。"
+    },
+    "zipExtractor": {
+      "title": "ZIP解压器",
+      "desc": "从ZIP压缩包中提取文件并下载。",
+      "extractedFiles": "已提取文件（{{count}} 个）：",
+      "andMore": "...以及另外 {{count}} 个文件",
+      "dropLabel": "将ZIP文件拖放到此处",
+      "extractBtn": "解压ZIP",
+      "resultTitle": "ZIP解压完成！",
+      "infoText": "ZIP内容被提取并重新打包为新的ZIP以供下载。这允许您在下载前验证内容。文件在服务器上安全处理。"
+    }
+  },
+  "lang": {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "ja": "日本語"
+  },
+  "toast": {
+    "noFile": "请先上传文件",
+    "noImage": "请先上传图片",
+    "noPdf": "请上传PDF文件",
+    "noZip": "请上传ZIP文件",
+    "noCsv": "请上传CSV文件",
+    "noJson": "请上传JSON文件",
+    "noExcel": "请上传Excel文件",
+    "needAtLeast2Pdf": "请至少上传2个PDF文件",
+    "needAtLeastOneImage": "请至少上传一张图片",
+    "needAtLeastOneFile": "请至少上传一个文件",
+    "enterCropSize": "请输入裁剪的宽度和高度",
+    "enterSize": "请输入宽度或高度",
+    "convertSuccess": "转换成功！",
+    "compressSuccess": "压缩成功！",
+    "mergeSuccess": "合并成功！",
+    "splitSuccess": "分割成功！",
+    "createSuccess": "创建成功！",
+    "extractSuccess": "解压成功！",
+    "cropSuccess": "图片裁剪成功！",
+    "resizeSuccess": "图片调整成功！"
+  }
+}

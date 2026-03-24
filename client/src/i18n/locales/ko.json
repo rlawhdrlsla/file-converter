@@ -1,0 +1,612 @@
+{
+  "nav": {
+    "imageTools": "이미지 도구",
+    "pdfTools": "PDF 도구",
+    "audioVideo": "오디오 & 비디오",
+    "dataTools": "데이터 도구"
+  },
+  "home": {
+    "badge": "무료 · 빠름 · 회원가입 불필요",
+    "title1": "모든 파일을",
+    "title2": "즉시 변환",
+    "subtitle": "이미지, PDF, 오디오, 비디오, 데이터 파일 — 모든 변환을 한 곳에서. 설치 불필요, 워터마크 없음, 완전 무료.",
+    "searchPlaceholder": "도구 검색... (예: 'jpg 변환', 'pdf 합치기')",
+    "noResults": "검색 결과 없음:",
+    "stats": {
+      "tools": "변환 도구",
+      "formats": "파일 형식",
+      "maxSize": "최대 파일 크기",
+      "free": "완전 무료"
+    },
+    "whyTitle": "FileConvert를 선택하는 이유",
+    "whySubtitle": "개인정보 보호, 속도, 편리함을 최우선으로 만들었어요.",
+    "features": {
+      "secure": {
+        "title": "안전하고 비공개",
+        "desc": "파일은 서버에서 처리된 후 1시간 뒤 자동으로 삭제돼요. 저장하거나 들여다보지 않아요."
+      },
+      "fast": {
+        "title": "번개처럼 빠름",
+        "desc": "클라우드 서버에서 처리되어 변환이 단 몇 초 만에 완료돼요."
+      },
+      "noSignup": {
+        "title": "회원가입 불필요",
+        "desc": "로그인도, 설치도 필요 없어요. 파일만 올리면 바로 쓸 수 있어요."
+      },
+      "quality": {
+        "title": "고품질 출력",
+        "desc": "언제나 선명하고 깔끔한 결과물을 만들어 드려요."
+      }
+    }
+  },
+  "tools": {
+    "image": {
+      "convert": {
+        "label": "이미지 변환기",
+        "desc": "JPG, PNG, WebP, GIF 형식 간 변환"
+      },
+      "resize": {
+        "label": "이미지 크기 조정",
+        "desc": "픽셀 또는 비율로 크기 조정"
+      },
+      "compress": {
+        "label": "이미지 압축기",
+        "desc": "품질 조절로 이미지 파일 크기 줄이기"
+      },
+      "toPdf": {
+        "label": "이미지를 PDF로",
+        "desc": "하나 또는 여러 이미지를 PDF로 변환"
+      },
+      "crop": {
+        "label": "이미지 자르기",
+        "desc": "이미지를 정확한 크기로 자르기"
+      }
+    },
+    "pdf": {
+      "merge": {
+        "label": "PDF 합치기",
+        "desc": "여러 PDF 파일을 하나로 합치기"
+      },
+      "split": {
+        "label": "PDF 분리",
+        "desc": "PDF에서 특정 페이지 추출"
+      },
+      "compress": {
+        "label": "PDF 압축기",
+        "desc": "PDF 파일 크기 줄이기"
+      },
+      "toWord": {
+        "label": "PDF를 Word로",
+        "desc": "PDF를 편집 가능한 Word 문서로 변환"
+      },
+      "wordToPdf": {
+        "label": "Word를 PDF로",
+        "desc": "Word 문서를 PDF로 변환"
+      }
+    },
+    "audio": {
+      "convert": {
+        "label": "오디오 변환기",
+        "desc": "MP3, WAV, AAC, FLAC, OGG 변환"
+      }
+    },
+    "video": {
+      "convert": {
+        "label": "비디오 변환기",
+        "desc": "MP4, AVI, MOV, MKV, WebM 변환"
+      },
+      "toGif": {
+        "label": "비디오를 GIF로",
+        "desc": "비디오 클립을 애니메이션 GIF로 변환"
+      },
+      "compress": {
+        "label": "비디오 압축기",
+        "desc": "비디오 파일 크기 줄이기"
+      }
+    },
+    "data": {
+      "csvToJson": {
+        "label": "CSV를 JSON으로",
+        "desc": "CSV 데이터를 JSON 형식으로 변환"
+      },
+      "jsonToCsv": {
+        "label": "JSON을 CSV로",
+        "desc": "JSON 배열을 CSV로 변환"
+      },
+      "csvToXlsx": {
+        "label": "CSV를 XLSX로",
+        "desc": "CSV를 Excel 스프레드시트로 변환"
+      },
+      "jsonToXml": {
+        "label": "JSON을 XML로",
+        "desc": "JSON을 XML 형식으로 변환"
+      },
+      "xlsvToCsv": {
+        "label": "XLSX를 CSV로",
+        "desc": "Excel을 CSV 형식으로 변환"
+      }
+    },
+    "archive": {
+      "zipCreator": {
+        "label": "ZIP 생성기",
+        "desc": "여러 파일로 ZIP 아카이브 만들기"
+      },
+      "zipExtractor": {
+        "label": "ZIP 압축 해제",
+        "desc": "ZIP 아카이브에서 파일 추출"
+      }
+    }
+  },
+  "categories": {
+    "imageTools": "이미지 도구",
+    "pdfTools": "PDF 도구",
+    "audioTools": "오디오 도구",
+    "videoTools": "비디오 도구",
+    "dataTools": "데이터 도구",
+    "archiveTools": "아카이브 도구"
+  },
+  "about": {
+    "title": "FileConvert 소개",
+    "subtitle": "로그인도, 설치도, 워터마크도 없어요. 파일을 올리고 변환하고 다운로드하면 끝.",
+    "storyTitle": "우리의 이야기",
+    "story1": "FileConvert는 광고 투성이에, 가입을 요구하고, 용량 제한도 빡빡하고, 변환 결과에 워터마크까지 찍어주는 기존 변환 서비스들에 질려서 만들었어요.",
+    "story2": "그래서 깔끔하고, 빠르고, 진짜 무료인 도구를 만들기로 했어요. 파일 올리고 → 형식 선택 → 변환 → 다운로드. 그게 전부예요.",
+    "story3": "이미지에는 Sharp, PDF에는 pdf-lib, 스프레드시트에는 XLSX.js 등 검증된 오픈소스 라이브러리를 사용했어요.",
+    "valuesTitle": "우리의 가치",
+    "values": {
+      "speed": {
+        "title": "속도 최우선",
+        "desc": "모든 변환은 서버에서 최적화된 라이브러리로 처리돼요. 기다릴 필요 없이 몇 초 안에 완료돼요."
+      },
+      "privacy": {
+        "title": "개인정보 보호 최우선",
+        "desc": "파일은 영구 저장하지 않아요. 업로드 후 1시간이 지나면 자동으로 삭제되며, 내용은 절대 열어보지 않아요."
+      },
+      "open": {
+        "title": "개방적이고 투명한",
+        "desc": "Sharp, pdf-lib, XLSX 등 오픈소스 라이브러리로 만들었어요. 어떻게 동작하는지 코드로 직접 확인할 수 있어요."
+      },
+      "free": {
+        "title": "항상 무료",
+        "desc": "FileConvert는 앞으로도 무료로 유지돼요. 광고 수익으로 서비스를 운영해요."
+      }
+    },
+    "techTitle": "기술 스택"
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "질문, 제안, 또는 버그를 발견하셨나요? 여러분의 의견을 기다립니다.",
+    "email": "이메일",
+    "feedback": "피드백",
+    "feedbackDesc": "버그 신고 및 기능 요청 환영",
+    "responseTime": "응답 시간",
+    "responseDesc": "일반적으로 1~2 영업일 내에 답변드립니다",
+    "formTitle": "메시지 보내기",
+    "name": "이름",
+    "namePlaceholder": "이름을 입력하세요",
+    "emailPlaceholder": "이메일@예시.com",
+    "subject": "제목",
+    "subjectPlaceholder": "무엇에 관한 내용인가요?",
+    "message": "메시지",
+    "messagePlaceholder": "질문이나 피드백을 설명해 주세요...",
+    "send": "메시지 보내기",
+    "directEmail": "또는 직접 이메일을 보내세요",
+    "successTitle": "메시지가 전송되었습니다!",
+    "successDesc": "메일 앱이 자동으로 열렸을 거예요. 열리지 않으면 아래 주소로 직접 보내주세요",
+    "sendAnother": "다른 메시지 보내기"
+  },
+  "privacy": {
+    "title": "개인정보 보호정책",
+    "updated": "최종 업데이트: 2026년 3월",
+    "intro": "FileConvert에서는 귀하의 개인정보 보호에 최선을 다하고 있습니다. 이 정책은 파일 변환 서비스 이용 시 정보를 처리하는 방법을 설명합니다. 요약하면:",
+    "introHighlight": "귀하의 데이터를 판매하지 않으며, 파일을 읽지 않으며, 모든 것을 자동으로 삭제합니다.",
+    "sections": {
+      "0": {
+        "title": "1. 업로드하는 파일",
+        "content": "변환을 위해 파일을 업로드하면 요청된 변환을 수행하기 위해서만 서버에 임시로 저장됩니다. 변환 성공 여부에 관계없이 파일은 1시간 후 자동으로 영구 삭제됩니다.\n\n파일 내용을 읽거나, 분석하거나, 복사하거나, 공유하거나, 판매하지 않습니다. 파일은 격리된 임시 디렉토리에서 처리되며 다른 사용자가 접근할 수 없습니다."
+      },
+      "1": {
+        "title": "2. 수집하는 정보",
+        "content": "서비스 운영을 위해 최소한의 기술 정보를 수집합니다:\n• 서버 접근 로그 (IP 주소, 타임스탬프, 요청 URL) — 보안 목적으로 7일간 보관\n• 집계 사용 통계 (변환 횟수, 사용된 도구) — 익명화, 개인 식별 정보 없음\n\n추적을 위한 쿠키를 사용하지 않습니다. 이름, 이메일 또는 개인 식별 정보를 수집하지 않습니다."
+      },
+      "2": {
+        "title": "3. 광고",
+        "content": "이 서비스의 무료 운영을 지원하기 위해 광고를 게재합니다. 광고 제공업체는 귀하의 브라우징 기록에 따라 관련 광고를 제공하기 위해 쿠키를 사용할 수 있습니다. 브라우저 설정이나 광고 제공업체의 옵트아웃 도구를 통해 맞춤형 광고를 거부할 수 있습니다.\n\n광고 수익은 이 무료 서비스를 지원하는 유일한 수단입니다."
+      },
+      "3": {
+        "title": "4. 제3자 서비스",
+        "content": "다음 제3자 서비스를 사용할 수 있습니다:\n• 정적 자산 제공을 위한 콘텐츠 전송 네트워크(CDN)\n• Google AdSense 또는 유사한 광고 서비스\n\n이러한 서비스에는 자체 개인정보 보호정책이 있습니다. 검토하실 것을 권장합니다."
+      },
+      "4": {
+        "title": "5. 데이터 보안",
+        "content": "모든 데이터 전송에 HTTPS를 사용합니다. 파일 업로드는 안전한 환경에서 서버 측에서 처리됩니다. 변환 과정에서 데이터를 보호하기 위해 합리적인 기술적 조치를 구현합니다.\n\n그러나 인터넷 전송은 100% 안전하지 않습니다. 기밀 개인정보가 포함된 매우 민감한 파일을 업로드하지 않을 것을 권장합니다."
+      },
+      "5": {
+        "title": "6. 아동 개인정보",
+        "content": "FileConvert는 13세 미만 아동을 대상으로 하지 않습니다. 아동으로부터 고의로 개인정보를 수집하지 않습니다. 아동이 이 서비스를 사용했다고 생각되시면 연락해 주세요."
+      },
+      "6": {
+        "title": "7. 정책 변경",
+        "content": "이 개인정보 보호정책을 수시로 업데이트할 수 있습니다. 변경 사항은 업데이트된 날짜와 함께 이 페이지에 게시됩니다. 변경 후 서비스를 계속 사용하면 새 정책에 동의하는 것으로 간주됩니다."
+      },
+      "7": {
+        "title": "8. 문의",
+        "content": "이 개인정보 보호정책에 대한 질문이 있으시면 소개 페이지에 제공된 정보를 통해 문의해 주세요."
+      }
+    }
+  },
+  "terms": {
+    "title": "서비스 이용약관",
+    "updated": "최종 업데이트: 2026년 3월",
+    "intro": "FileConvert를 이용해 주셔서 감사합니다. 서비스를 사용하기 전에 아래 이용약관을 확인해 주세요. 서비스를 이용하시면 본 약관에 동의하신 것으로 간주됩니다.",
+    "sections": {
+      "0": {
+        "title": "1. 약관 동의",
+        "content": "FileConvert(\"서비스\")를 이용하시면 본 이용약관에 동의하신 것으로 간주됩니다. 약관에 동의하지 않으실 경우, 서비스 이용을 삼가 주시기 바랍니다."
+      },
+      "1": {
+        "title": "2. 서비스 설명",
+        "content": "FileConvert는 이미지, PDF, 데이터 파일 등 다양한 형식 간 파일 변환을 무료로 제공하는 온라인 서비스입니다. 서비스는 현재 상태 그대로 제공되며, 별도의 보증이 없음을 알려드립니다."
+      },
+      "2": {
+        "title": "3. 허용 가능한 사용",
+        "content": "서비스는 합법적인 목적에만 이용해 주세요. 아래와 같은 사용은 삼가 주시기 바랍니다:\n• 악성코드, 바이러스 또는 유해한 파일 업로드\n• 불법 콘텐츠 업로드 (아동 성착취물, 무단 저작권 자료 등)\n• 서비스에 과부하를 주거나 공격을 시도하는 행위\n• 복사 방지(DRM) 우회를 목적으로 한 이용\n• 자동화 스크립트를 통한 서비스 남용\n• 동의 없이 타인의 개인정보가 포함된 파일 업로드"
+      },
+      "3": {
+        "title": "4. 파일 소유권 및 권리",
+        "content": "업로드하는 파일에 대한 소유권 또는 변환 권한이 있음을 확인해 주세요. 파일의 모든 소유권은 이용자에게 있으며, FileConvert는 이에 대한 어떠한 권리도 주장하지 않습니다.\n\n파일을 업로드하시면 변환 처리 및 결과 반환에 한하여 일시적인 이용 허가가 부여됩니다. 파일 삭제(업로드 후 1시간) 시 이 허가는 자동으로 종료됩니다."
+      },
+      "4": {
+        "title": "5. 서비스 제한",
+        "content": "원활한 서비스 운영을 위해 아래와 같은 제한이 적용됩니다:\n• 최대 파일 크기: 파일당 100MB\n• 업로드된 파일은 1시간 후 자동 삭제됩니다\n• 모든 파일 형식에 대한 변환 정확도를 100% 보장하기 어려울 수 있습니다\n• 서비스 접근성이 항상 보장되지는 않으며, 점검 등으로 일시적으로 이용이 제한될 수 있습니다"
+      },
+      "5": {
+        "title": "6. 보증 면책",
+        "content": "서비스는 별도의 보증 없이 \"현재 상태 그대로\" 제공됩니다. 다음 사항은 보증 범위에 포함되지 않습니다:\n• 서비스가 중단 없이 항상 이용 가능하다는 것\n• 변환 결과가 모든 경우에 정확하거나 완전하다는 것\n• 서비스가 모든 위협으로부터 완전히 자유롭다는 것"
+      },
+      "6": {
+        "title": "7. 책임 제한",
+        "content": "법률이 허용하는 범위 내에서, 서비스 이용 또는 이용 불가로 인한 데이터 손실, 이익 손실 등의 간접적 손해에 대해서는 책임을 부담하기 어렵습니다. 이 점 양해 부탁드립니다."
+      },
+      "7": {
+        "title": "8. 약관 변경",
+        "content": "서비스 개선을 위해 약관이 변경될 수 있습니다. 변경된 약관은 이 페이지에 업데이트되며, 변경 후 서비스를 계속 이용하시면 새 약관에 동의하신 것으로 간주됩니다."
+      },
+      "8": {
+        "title": "9. 준거법",
+        "content": "본 약관은 관련 법률에 따라 해석되고 적용됩니다."
+      },
+      "9": {
+        "title": "10. 문의",
+        "content": "약관에 관한 문의사항이 있으시면 문의하기 페이지를 통해 언제든지 연락해 주세요. 성심껏 답변드리겠습니다."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "빠르고, 무료이며, 안전한 파일 변환. 회원가입 불필요.",
+    "tools": "도구",
+    "company": "회사",
+    "formats": "형식",
+    "formatsDesc": "JPG, PNG, WebP, PDF, MP3, MP4, CSV, JSON, XML, XLSX, ZIP 등.",
+    "madeWith": "모든 분들을 위해 정성껏 만든 서비스.",
+    "for": "",
+    "autoDelete": "파일은 1시간 후 자동으로 삭제됩니다.",
+    "about": "소개",
+    "contact": "문의",
+    "privacy": "개인정보 보호정책",
+    "terms": "서비스 이용약관",
+    "imageTools": "이미지 도구",
+    "pdfTools": "PDF 도구",
+    "audioVideo": "오디오 & 비디오",
+    "dataArchive": "데이터 & 아카이브"
+  },
+  "converter": {
+    "dropzone": "파일을 끌어다 놓거나 클릭해서 선택하세요",
+    "dropzoneMulti": "파일을 끌어다 놓거나 클릭해서 선택하세요",
+    "maxSize": "최대 파일 크기: 100MB",
+    "convert": "변환",
+    "converting": "변환 중...",
+    "download": "다운로드",
+    "downloadAll": "모두 다운로드",
+    "reset": "새로 변환하기",
+    "error": "변환 실패. 다시 시도해 주세요.",
+    "selectFormat": "출력 형식 선택",
+    "quality": "품질",
+    "width": "너비",
+    "height": "높이",
+    "maintainRatio": "가로세로 비율 유지",
+    "processing": "처리 중...",
+    "success": "완료!",
+    "fileReady": "파일이 준비되었습니다",
+    "or": "또는",
+    "browse": "파일 선택",
+    "releaseToUpload": "여기에 놓으세요",
+    "dragOrClick": "드래그하거나 클릭해서 파일을 선택하세요",
+    "maxSizeLabel": "최대 크기",
+    "upToFiles": "최대 {{count}}개 파일",
+    "dismiss": "닫기",
+    "file": "파일",
+    "size": "크기",
+    "pages": "페이지",
+    "rows": "행",
+    "saved": "절약됨",
+    "dimensions": "크기",
+    "convertAnother": "새로 변환하기"
+  },
+  "pages": {
+    "imageConverter": {
+      "title": "이미지 변환기",
+      "desc": "JPG, PNG, WebP, BMP, TIFF, GIF, AVIF 형식 간 변환.",
+      "convertTo": "변환 형식",
+      "dropLabel": "이미지를 여기에 드롭하세요",
+      "dropSublabel": "JPG, PNG, WebP, BMP, TIFF, GIF, AVIF 지원",
+      "convertBtn": "{{format}}으로 변환",
+      "resultTitle": "이미지 변환 완료!",
+      "infoText": "모든 변환은 안전한 서버에서 이루어집니다. 파일은 1시간 후 자동으로 삭제됩니다. 무손실 및 손실 형식 모두 지원 — WebP와 AVIF는 고품질로 최상의 압축을 제공합니다."
+    },
+    "imageResizer": {
+      "title": "이미지 크기 조정",
+      "desc": "정확한 픽셀 크기 또는 비율로 이미지 크기를 조정합니다.",
+      "resizeMode": "크기 조정 방식",
+      "byPixels": "픽셀로",
+      "byPercent": "비율로",
+      "widthPx": "너비 (px)",
+      "heightPx": "높이 (px)",
+      "percentage": "비율 (%)",
+      "scalePercent": "비율 조정",
+      "maintainAspect": "가로세로 비율 유지",
+      "dropLabel": "이미지를 여기에 드롭하세요",
+      "resizeBtn": "이미지 크기 조정",
+      "resultTitle": "이미지 크기 조정 완료!",
+      "infoText": "하나의 크기만 지정하고 비율을 유지하면 다른 쪽이 자동으로 계산됩니다. 출력 형식은 입력 형식과 동일합니다."
+    },
+    "imageCompressor": {
+      "title": "이미지 압축기",
+      "desc": "품질을 조절하면서 이미지 파일 크기를 줄입니다. JPG, PNG, WebP 지원.",
+      "quality": "품질",
+      "smallest": "최소 (1)",
+      "best": "최고 (100)",
+      "highQuality": "고품질",
+      "goodQuality": "양호한 품질",
+      "mediumQuality": "중간 품질",
+      "lowQuality": "낮은 품질 (최소 파일)",
+      "dropLabel": "이미지를 여기에 드롭하세요",
+      "dropSublabel": "JPG, PNG, WebP, AVIF 지원",
+      "compressBtn": "이미지 압축",
+      "resultTitle": "이미지 압축 완료!",
+      "infoText": "품질 80 정도가 대부분의 경우에 딱 좋아요. 화질 차이는 거의 없고 파일 크기는 확 줄어요. 웹용이라면 60~75도 충분해요."
+    },
+    "imageCropper": {
+      "title": "이미지 자르기",
+      "desc": "영역 좌표와 크기를 지정하여 이미지를 자릅니다.",
+      "cropRegion": "자르기 영역 (픽셀)",
+      "leftOffset": "왼쪽 (X 오프셋)",
+      "topOffset": "위쪽 (Y 오프셋)",
+      "widthRequired": "너비 (px) *",
+      "heightRequired": "높이 (px) *",
+      "dropLabel": "이미지를 여기에 드롭하세요",
+      "cropBtn": "이미지 자르기",
+      "resultTitle": "이미지 자르기 완료!",
+      "infoText": "좌표는 이미지 왼쪽 위 모서리(0, 0)를 기준으로 해요. 입력한 영역이 원본 이미지 크기를 넘지 않도록 확인해 주세요."
+    },
+    "imageToPdf": {
+      "title": "이미지를 PDF로",
+      "desc": "하나 또는 여러 이미지를 단일 PDF 문서로 변환합니다.",
+      "dropLabel": "이미지를 여기에 드롭하세요",
+      "dropSublabel": "여러 이미지 업로드 — 각각 페이지가 됩니다",
+      "imagesSelected": "{{count}}개 이미지 선택됨 — 표시된 순서로 {{count}}페이지 PDF로 합쳐집니다.",
+      "createBtn": "{{count}}개 이미지로 PDF 생성",
+      "createBtnPlural": "{{count}}개 이미지로 PDF 생성",
+      "resultTitle": "PDF 생성 완료!",
+      "infoText": "각 이미지가 PDF의 한 페이지가 돼요. 한 번에 최대 20개까지 올릴 수 있어요."
+    },
+    "pdfMerger": {
+      "title": "PDF 합치기",
+      "desc": "여러 PDF 파일을 하나의 문서로 합칩니다.",
+      "dropLabel": "PDF 파일을 여기에 드롭하세요",
+      "dropSublabel": "합칠 2개 이상의 PDF를 업로드하세요",
+      "pdfSelected": "{{count}}개 PDF 선택됨. PDF는 위에 표시된 순서로 합쳐집니다.",
+      "pdfSelectedPlural": "{{count}}개 PDF 선택됨. PDF는 위에 표시된 순서로 합쳐집니다.",
+      "mergeBtn": "{{count}}개 PDF 합치기",
+      "resultTitle": "PDF 합치기 완료!",
+      "infoText": "업로드한 순서대로 합쳐져요. 한 번에 최대 20개 PDF를 합칠 수 있어요."
+    },
+    "pdfSplitter": {
+      "title": "PDF 분리",
+      "desc": "PDF 문서에서 특정 페이지 범위를 추출합니다.",
+      "pageRange": "페이지 범위",
+      "startPage": "시작 페이지",
+      "endPage": "끝 페이지 (선택사항)",
+      "endPagePlaceholder": "마지막 페이지",
+      "endPageHint": "끝 페이지를 비워두면 시작 페이지부터 문서 끝까지 추출합니다.",
+      "dropLabel": "PDF를 여기에 드롭하세요",
+      "splitBtn": "PDF 분리",
+      "resultTitle": "PDF 분리 완료!",
+      "infoText": "페이지 번호는 1부터 시작합니다. 단일 페이지를 추출하려면 시작과 끝에 같은 번호를 입력하세요. 결과 PDF는 원본 형식을 모두 유지합니다."
+    },
+    "pdfCompressor": {
+      "title": "PDF 압축기",
+      "desc": "내부 구조를 최적화하여 PDF 파일 크기를 줄입니다.",
+      "dropLabel": "PDF를 여기에 드롭하세요",
+      "compressBtn": "PDF 압축",
+      "resultTitle": "PDF 압축 완료!",
+      "infoText": "PDF 내부 구조를 최적화해서 파일 크기를 줄여요. 이미지가 많은 PDF는 압축 효과가 적을 수 있어요."
+    },
+    "pdfToWord": {
+      "title": "PDF를 Word로",
+      "desc": "PDF 문서를 편집 가능한 DOCX 형식으로 변환합니다.",
+      "advancedRequired": "고급 PDF 처리 필요",
+      "advancedDesc": "PDF를 Word로 변환하려면 전문 OCR 라이브러리(Tesseract 또는 클라우드 API)가 필요합니다. 이 기능은 추가 서버 측 종속성이 필요합니다.",
+      "step1": "pdf2docx를 설치하거나 Adobe PDF Services와 같은 클라우드 API를 사용하세요",
+      "step2": "레이아웃 보존이 있는 정확한 텍스트 추출을 위해 Tesseract와 같은 OCR 엔진이 필요합니다",
+      "step3": "/api/pdf/to-word 라우트 엔드포인트가 구현 준비가 되어 있습니다",
+      "infoText": "그 동안 Google Docs(PDF 업로드 후 Docs로 열기), Microsoft Word 온라인, 또는 Adobe Acrobat과 같은 무료 서비스를 사용하여 PDF를 DOCX 형식으로 변환할 수 있습니다."
+    },
+    "wordToPdf": {
+      "title": "Word를 PDF로",
+      "desc": "DOCX 파일을 PDF 형식으로 변환합니다.",
+      "libreRequired": "LibreOffice 또는 Pandoc 필요",
+      "libreDesc": "DOCX를 PDF로 변환하려면 서버에 LibreOffice 헤드리스 모드 또는 Pandoc이 설치되어 있어야 합니다.",
+      "infoText": "LibreOffice가 설치되면 서버의 /api/pdf/word-to-pdf 라우트에 변환 로직을 추가하세요. 라우트는 child_process exec를 사용하여 LibreOffice CLI를 호출합니다."
+    },
+    "audioConverter": {
+      "title": "오디오 변환기",
+      "desc": "MP3, WAV, AAC, FLAC, OGG, M4A 형식 간 변환.",
+      "outputFormat": "출력 형식",
+      "bitrate": "비트레이트",
+      "ffmpegRequired": "FFmpeg 필요",
+      "dropLabel": "오디오 파일을 여기에 드롭하세요",
+      "dropSublabel": "MP3, WAV, AAC, FLAC, OGG, M4A 지원",
+      "convertBtn": "{{format}}으로 변환",
+      "resultTitle": "오디오 변환 완료!",
+      "infoText": "오디오 변환에는 서버에 FFmpeg가 설치되어 있어야 합니다. FLAC은 파일이 크지만 무손실입니다. 192kbps의 MP3는 대부분의 청취자에게 투명합니다. AAC와 OGG는 같은 비트레이트에서 MP3보다 나은 품질을 제공합니다."
+    },
+    "videoConverter": {
+      "title": "비디오 변환기",
+      "desc": "MP4, AVI, MOV, MKV, WebM 형식 간 변환.",
+      "outputFormat": "출력 형식",
+      "quality": "품질",
+      "highQuality": "고품질",
+      "highQualityDesc": "큰 파일, 최고 품질",
+      "medium": "중간",
+      "mediumDesc": "크기와 품질의 균형",
+      "lowQuality": "낮은 품질",
+      "lowQualityDesc": "최소 파일 크기",
+      "ffmpegRequired": "FFmpeg 필요",
+      "dropLabel": "비디오 파일을 여기에 드롭하세요",
+      "dropSublabel": "MP4, AVI, MOV, MKV, WebM, FLV 지원",
+      "convertBtn": "{{format}}으로 변환",
+      "resultTitle": "비디오 변환 완료!",
+      "processingNote": "파일 크기에 따라 비디오 변환에 몇 분이 걸릴 수 있습니다...",
+      "infoText": "비디오 변환에는 FFmpeg가 필요합니다. 대용량 비디오 파일은 처리에 몇 분이 걸릴 수 있습니다. H.264가 포함된 MP4는 웹 및 모바일 기기에서 가장 호환성이 높은 형식입니다."
+    },
+    "videoToGif": {
+      "title": "비디오를 GIF로",
+      "desc": "비디오 클립을 사용자 지정 설정으로 애니메이션 GIF로 변환합니다.",
+      "startTime": "시작 시간 (초)",
+      "duration": "지속 시간 (최대 30초)",
+      "fps": "FPS (초당 프레임)",
+      "widthPixels": "너비 (픽셀)",
+      "preview": "미리보기:",
+      "ffmpegRequired": "FFmpeg 필요",
+      "dropLabel": "비디오를 여기에 드롭하세요",
+      "createBtn": "GIF 만들기",
+      "resultTitle": "GIF 생성 완료!",
+      "infoText": "파일 크기를 줄이려면 GIF를 짧게 (2-8초) 유지하세요. FPS가 낮을수록 파일이 작아집니다. 너비 480px는 좋은 균형입니다. 최대 지속 시간은 매우 큰 GIF 파일을 방지하기 위해 30초로 제한됩니다."
+    },
+    "videoCompressor": {
+      "title": "비디오 압축기",
+      "desc": "H.264 인코딩을 사용하여 품질을 유지하면서 비디오 파일 크기를 줄입니다.",
+      "compressionLevel": "압축 수준",
+      "highQuality": "고품질",
+      "highQualityDesc": "~20% 더 작음",
+      "medium": "중간",
+      "mediumDesc": "~40-60% 더 작음",
+      "maxCompression": "최대 압축",
+      "maxCompressionDesc": "~70%+ 더 작음",
+      "ffmpegRequired": "FFmpeg 필요",
+      "dropLabel": "비디오를 여기에 드롭하세요",
+      "compressBtn": "비디오 압축",
+      "resultTitle": "비디오 압축 완료!",
+      "processingNote": "대용량 파일의 경우 압축에 몇 분이 걸릴 수 있습니다...",
+      "infoText": "비디오는 탁월한 압축을 제공하는 H.264(libx264)로 재인코딩됩니다. 출력 형식은 입력 파일과 일치합니다. 매우 큰 파일의 최상의 결과를 위해 먼저 비디오를 분할하는 것을 고려하세요."
+    },
+    "csvToJson": {
+      "title": "CSV를 JSON으로",
+      "desc": "CSV 스프레드시트 데이터를 JSON 형식으로 변환합니다.",
+      "preview": "미리보기 (처음 3행):",
+      "dropLabel": "CSV 파일을 여기에 드롭하세요",
+      "convertBtn": "JSON으로 변환",
+      "resultTitle": "CSV가 JSON으로 변환됨!",
+      "infoText": "CSV 첫 번째 줄이 컬럼 이름으로 사용돼요. 쉼표(,)와 세미콜론(;) 구분자를 모두 지원하고, 따옴표로 묶인 필드도 알아서 처리해요."
+    },
+    "jsonToCsv": {
+      "title": "JSON을 CSV로",
+      "desc": "JSON 배열과 객체를 CSV 스프레드시트 형식으로 변환합니다.",
+      "dropLabel": "JSON 파일을 여기에 드롭하세요",
+      "convertBtn": "CSV로 변환",
+      "resultTitle": "JSON이 CSV로 변환됨!",
+      "infoText": "JSON은 배열 형태이거나, 배열 값을 가진 객체여야 해요. 중첩된 객체는 address_city 같은 방식으로 펼쳐져요."
+    },
+    "csvToXlsx": {
+      "title": "CSV를 Excel (XLSX)로",
+      "desc": "CSV 파일을 자동 형식의 열이 있는 Excel 스프레드시트 형식으로 변환합니다.",
+      "dropLabel": "CSV 파일을 여기에 드롭하세요",
+      "convertBtn": "XLSX로 변환",
+      "resultTitle": "Excel 파일 생성됨!",
+      "infoText": "CSV는 첫 번째 행을 헤더로 하는 Excel XLSX 파일로 변환됩니다. 열 너비가 자동으로 조정됩니다. Microsoft Excel, LibreOffice Calc, 또는 Google Sheets에서 결과를 열어보세요."
+    },
+    "jsonToXml": {
+      "title": "JSON을 XML로",
+      "desc": "JSON 데이터를 잘 형식화된 XML 문서로 변환합니다.",
+      "rootElementName": "루트 요소 이름",
+      "arrayItemElement": "배열 항목 요소",
+      "dropLabel": "JSON 파일을 여기에 드롭하세요",
+      "convertBtn": "XML로 변환",
+      "resultTitle": "JSON이 XML로 변환됨!",
+      "infoText": "JSON 배열은 지정된 항목 요소 이름으로 감싸집니다. 중첩된 객체는 중첩된 XML 요소로 표현됩니다. 출력에는 UTF-8 인코딩이 포함된 XML 선언 헤더가 포함됩니다."
+    },
+    "xlsxToCsv": {
+      "title": "Excel을 CSV로",
+      "desc": "Excel XLSX 파일을 CSV 형식으로 변환합니다.",
+      "sheetName": "시트 이름 (선택사항)",
+      "sheetNamePlaceholder": "비워두면 첫 번째 시트 사용",
+      "availableSheets": "사용 가능한 시트: {{sheets}}. 특정 시트를 변환하려면 \"다른 파일 변환\"을 클릭하고 시트 이름을 입력하세요.",
+      "dropLabel": "Excel 파일을 여기에 드롭하세요",
+      "dropSublabel": "XLSX 및 XLS 형식 지원",
+      "convertBtn": "CSV로 변환",
+      "resultTitle": "Excel이 CSV로 변환됨!",
+      "infoText": "기본적으로 통합 문서의 첫 번째 시트가 변환됩니다. Excel 파일에 여러 시트가 있는 경우 정확한 시트 이름을 지정하세요. 시트 이름은 대소문자를 구분합니다."
+    },
+    "zipCreator": {
+      "title": "ZIP 생성기",
+      "desc": "여러 파일을 단일 ZIP 아카이브로 압축합니다.",
+      "dropLabel": "압축할 파일을 여기에 드롭하세요",
+      "dropSublabel": "모든 파일 형식, 최대 50개",
+      "filesSelected": "압축할 {{count}}개 파일 선택됨",
+      "filesSelectedPlural": "압축할 {{count}}개 파일 선택됨",
+      "archiveContains": "아카이브에 {{count}}개 파일 포함",
+      "createBtn": "ZIP 생성 ({{count}}개 파일)",
+      "resultTitle": "ZIP 아카이브 생성됨!",
+      "infoText": "파일은 최대 압축 수준으로 압축됩니다. 원본 파일명이 ZIP 아카이브에 보존됩니다. 한 번에 최대 50개 파일을 추가할 수 있습니다."
+    },
+    "zipExtractor": {
+      "title": "ZIP 압축 해제",
+      "desc": "ZIP 아카이브에서 파일을 추출하고 다운로드합니다.",
+      "extractedFiles": "추출된 파일 ({{count}}개):",
+      "andMore": "...및 {{count}}개 파일 더",
+      "dropLabel": "ZIP 파일을 여기에 드롭하세요",
+      "extractBtn": "ZIP 추출",
+      "resultTitle": "ZIP 추출 완료!",
+      "infoText": "ZIP 안에 있는 파일을 풀어서 다시 새 ZIP으로 묶어 드려요. 다운로드 전에 파일 목록을 미리 확인할 수 있어요."
+    }
+  },
+  "lang": {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "ja": "日本語"
+  },
+  "toast": {
+    "noFile": "파일을 먼저 업로드해 주세요",
+    "noImage": "이미지를 먼저 업로드해 주세요",
+    "noPdf": "PDF 파일을 업로드해 주세요",
+    "noZip": "ZIP 파일을 업로드해 주세요",
+    "noCsv": "CSV 파일을 업로드해 주세요",
+    "noJson": "JSON 파일을 업로드해 주세요",
+    "noExcel": "Excel 파일을 업로드해 주세요",
+    "needAtLeast2Pdf": "PDF 파일을 2개 이상 업로드해 주세요",
+    "needAtLeastOneImage": "이미지를 하나 이상 업로드해 주세요",
+    "needAtLeastOneFile": "파일을 하나 이상 업로드해 주세요",
+    "enterCropSize": "잘라낼 너비와 높이를 입력해 주세요",
+    "enterSize": "너비 또는 높이를 입력해 주세요",
+    "convertSuccess": "변환이 완료되었습니다!",
+    "compressSuccess": "압축이 완료되었습니다!",
+    "mergeSuccess": "병합이 완료되었습니다!",
+    "splitSuccess": "분리가 완료되었습니다!",
+    "createSuccess": "생성이 완료되었습니다!",
+    "extractSuccess": "압축 해제가 완료되었습니다!",
+    "cropSuccess": "이미지 자르기가 완료되었습니다!",
+    "resizeSuccess": "이미지 크기 조정이 완료되었습니다!"
+  }
+}

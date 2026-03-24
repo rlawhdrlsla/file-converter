@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: file-converter
+    env: node
+    region: singapore  # 한국과 가장 가까운 리전
+    plan: starter       # 유료 플랜 ($7/월) — 슬립 없음, 커스텀 도메인 지원
+    buildCommand: npm install --prefix server && npm run build
+    startCommand: NODE_ENV=production npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+    disk:
+      name: uploads
+      mountPath: /opt/render/project/src/server/uploads
+      sizeGB: 1

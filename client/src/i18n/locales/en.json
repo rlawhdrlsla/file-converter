@@ -1,0 +1,612 @@
+{
+  "nav": {
+    "imageTools": "Image Tools",
+    "pdfTools": "PDF Tools",
+    "audioVideo": "Audio & Video",
+    "dataTools": "Data Tools"
+  },
+  "home": {
+    "badge": "Free · Fast · No sign-up",
+    "title1": "Convert Any File",
+    "title2": "Instantly",
+    "subtitle": "Images, PDFs, audio, video, and data files — all conversions in one place. No installation, no watermarks, completely free.",
+    "searchPlaceholder": "Search tools... (e.g. 'convert jpg', 'merge pdf')",
+    "noResults": "No tools found for",
+    "stats": {
+      "tools": "Conversion Tools",
+      "formats": "File Formats",
+      "maxSize": "Max File Size",
+      "free": "Always Free"
+    },
+    "whyTitle": "Why FileConvert?",
+    "whySubtitle": "Built with privacy, speed, and simplicity in mind.",
+    "features": {
+      "secure": {
+        "title": "Secure & Private",
+        "desc": "Files are processed on our server and permanently deleted after 1 hour. We never read or share them."
+      },
+      "fast": {
+        "title": "Lightning Fast",
+        "desc": "Server-side processing means your conversion is done in seconds, not minutes."
+      },
+      "noSignup": {
+        "title": "No Sign-up Required",
+        "desc": "No account, no install, no hassle. Just open and use it — completely free."
+      },
+      "quality": {
+        "title": "High Quality Output",
+        "desc": "Clean, sharp output every time."
+      }
+    }
+  },
+  "tools": {
+    "image": {
+      "convert": {
+        "label": "Image Converter",
+        "desc": "Convert between JPG, PNG, WebP, GIF formats"
+      },
+      "resize": {
+        "label": "Image Resizer",
+        "desc": "Resize by pixels or percentage"
+      },
+      "compress": {
+        "label": "Image Compressor",
+        "desc": "Reduce image file size with quality control"
+      },
+      "toPdf": {
+        "label": "Image to PDF",
+        "desc": "Convert one or multiple images to a PDF"
+      },
+      "crop": {
+        "label": "Image Cropper",
+        "desc": "Crop images to exact dimensions"
+      }
+    },
+    "pdf": {
+      "merge": {
+        "label": "PDF Merger",
+        "desc": "Combine multiple PDF files into one"
+      },
+      "split": {
+        "label": "PDF Splitter",
+        "desc": "Extract specific pages from a PDF"
+      },
+      "compress": {
+        "label": "PDF Compressor",
+        "desc": "Reduce PDF file size"
+      },
+      "toWord": {
+        "label": "PDF to Word",
+        "desc": "Convert PDF to editable Word document"
+      },
+      "wordToPdf": {
+        "label": "Word to PDF",
+        "desc": "Convert Word documents to PDF"
+      }
+    },
+    "audio": {
+      "convert": {
+        "label": "Audio Converter",
+        "desc": "Convert MP3, WAV, AAC, FLAC, OGG"
+      }
+    },
+    "video": {
+      "convert": {
+        "label": "Video Converter",
+        "desc": "Convert MP4, AVI, MOV, MKV, WebM"
+      },
+      "toGif": {
+        "label": "Video to GIF",
+        "desc": "Turn a video clip into an animated GIF"
+      },
+      "compress": {
+        "label": "Video Compressor",
+        "desc": "Reduce video file size"
+      }
+    },
+    "data": {
+      "csvToJson": {
+        "label": "CSV to JSON",
+        "desc": "Convert CSV data to JSON format"
+      },
+      "jsonToCsv": {
+        "label": "JSON to CSV",
+        "desc": "Convert JSON arrays to CSV"
+      },
+      "csvToXlsx": {
+        "label": "CSV to XLSX",
+        "desc": "Convert CSV to Excel spreadsheet"
+      },
+      "jsonToXml": {
+        "label": "JSON to XML",
+        "desc": "Convert JSON to XML format"
+      },
+      "xlsvToCsv": {
+        "label": "XLSX to CSV",
+        "desc": "Convert Excel to CSV format"
+      }
+    },
+    "archive": {
+      "zipCreator": {
+        "label": "ZIP Creator",
+        "desc": "Create ZIP archives from multiple files"
+      },
+      "zipExtractor": {
+        "label": "ZIP Extractor",
+        "desc": "Extract files from ZIP archives"
+      }
+    }
+  },
+  "categories": {
+    "imageTools": "Image Tools",
+    "pdfTools": "PDF Tools",
+    "audioTools": "Audio Tools",
+    "videoTools": "Video Tools",
+    "dataTools": "Data Tools",
+    "archiveTools": "Archive Tools"
+  },
+  "about": {
+    "title": "About FileConvert",
+    "subtitle": "No sign-up, no watermarks, no nonsense. Upload, convert, download — done.",
+    "storyTitle": "Our Story",
+    "story1": "FileConvert was built out of frustration with existing tools — they're cluttered with ads, require accounts, impose tiny file size limits, or slap watermarks on your output.",
+    "story2": "So we built a clean, fast, truly free alternative. Upload a file, pick a format, convert, download. That's it.",
+    "story3": "We use Sharp for images, pdf-lib for PDFs, and XLSX.js for spreadsheets — proven open-source libraries.",
+    "valuesTitle": "Our Values",
+    "values": {
+      "speed": {
+        "title": "Built for Speed",
+        "desc": "Every conversion runs server-side with optimized libraries to ensure the fastest possible results. No client-side slow downs."
+      },
+      "privacy": {
+        "title": "Privacy First",
+        "desc": "Your files are never stored permanently. All uploaded files are automatically deleted after 1 hour. We never read, analyze, or share your files."
+      },
+      "open": {
+        "title": "Open & Transparent",
+        "desc": "Built with open-source libraries including Sharp, pdf-lib, XLSX, and FFmpeg. The code is auditable and the stack is well-known."
+      },
+      "free": {
+        "title": "Always Free",
+        "desc": "FileConvert is and will remain free to use. We support this project through non-intrusive advertisements."
+      }
+    },
+    "techTitle": "Technology Stack"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question, suggestion, or found a bug? We'd love to hear from you.",
+    "email": "Email",
+    "feedback": "Feedback",
+    "feedbackDesc": "Bug reports & feature requests welcome",
+    "responseTime": "Response Time",
+    "responseDesc": "We typically reply within 1–2 business days",
+    "formTitle": "Send a Message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@example.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "What's this about?",
+    "message": "Message",
+    "messagePlaceholder": "Describe your question or feedback...",
+    "send": "Send Message",
+    "directEmail": "Or email us directly at",
+    "successTitle": "Message Sent!",
+    "successDesc": "Your mail app should have opened automatically. If not, you can email us directly at",
+    "sendAnother": "Send another message"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: March 2026",
+    "intro": "At FileConvert, we are committed to protecting your privacy. This policy explains how we handle information when you use our file conversion service. The short version:",
+    "introHighlight": "we don't sell your data, we don't read your files, and we delete everything automatically.",
+    "sections": {
+      "0": {
+        "title": "1. Files You Upload",
+        "content": "When you upload a file for conversion, it is temporarily stored on our servers solely to perform the requested conversion. Files are automatically and permanently deleted after 1 hour, regardless of whether conversion was successful or not.\n\nWe do not read, analyze, copy, share, or sell your file contents. Files are processed in isolated temporary directories and are not accessible to other users."
+      },
+      "1": {
+        "title": "2. Information We Collect",
+        "content": "We collect minimal technical information to operate the service:\n• Server access logs (IP address, timestamp, request URL) — retained for 7 days for security purposes\n• Aggregate usage statistics (how many conversions were performed, which tools are used) — anonymized, with no personally identifiable information\n\nWe do not use cookies for tracking. We do not collect your name, email, or any personally identifiable information."
+      },
+      "2": {
+        "title": "3. Advertisements",
+        "content": "We display advertisements to support the free operation of this service. Our ad provider may use cookies to serve relevant ads based on your browsing history. You can opt out of personalized advertising through your browser settings or ad provider opt-out tools.\n\nAdvertisement revenue is the sole means of supporting this free service."
+      },
+      "3": {
+        "title": "4. Third-Party Services",
+        "content": "We may use the following third-party services:\n• Content Delivery Networks (CDN) to serve static assets\n• Google AdSense or similar for advertisements\n\nThese services have their own privacy policies. We encourage you to review them."
+      },
+      "4": {
+        "title": "5. Data Security",
+        "content": "We use HTTPS for all data transmission. File uploads are processed server-side in a secure environment. We implement reasonable technical measures to protect your data during the conversion process.\n\nHowever, no internet transmission is 100% secure. We recommend not uploading highly sensitive files containing confidential personal information."
+      },
+      "5": {
+        "title": "6. Children's Privacy",
+        "content": "FileConvert is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has used this service, please contact us."
+      },
+      "6": {
+        "title": "7. Changes to This Policy",
+        "content": "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of the service after changes constitutes acceptance of the new policy."
+      },
+      "7": {
+        "title": "8. Contact",
+        "content": "If you have questions about this Privacy Policy, please contact us through the information provided on our About page."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "updated": "Last updated: March 2026",
+    "intro": "Please read these Terms of Service carefully before using FileConvert. By using our service, you agree to these terms.",
+    "sections": {
+      "0": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using FileConvert (\"the Service\"), you agree to be bound by these Terms of Service. If you do not agree, please do not use the Service."
+      },
+      "1": {
+        "title": "2. Description of Service",
+        "content": "FileConvert provides a free online file conversion service that allows users to convert files between various formats including images, PDFs, audio, video, and data files. The Service is provided \"as is\" without any guarantees."
+      },
+      "2": {
+        "title": "3. Acceptable Use",
+        "content": "You agree to use the Service only for lawful purposes. You must not:\n• Upload files that contain malware, viruses, or malicious code\n• Upload files containing illegal content (CSAM, copyrighted material you don't own, etc.)\n• Attempt to overload or attack the Service\n• Use the Service to circumvent copy protection or DRM\n• Use automated scripts to abuse the Service\n• Upload files containing personally identifiable information of others without their consent"
+      },
+      "3": {
+        "title": "4. File Ownership & Rights",
+        "content": "You represent that you own or have the right to convert any files you upload. You retain all ownership rights to your files. We do not claim any ownership over your content.\n\nBy uploading a file, you grant us a temporary, limited license solely to process the conversion and return the result to you. This license terminates when the file is deleted (after 1 hour)."
+      },
+      "4": {
+        "title": "5. Service Limitations",
+        "content": "The Service has the following limitations:\n• Maximum file size: 100 MB per file\n• Files are deleted after 1 hour\n• Video and audio conversion requires FFmpeg to be installed\n• We do not guarantee conversion accuracy for all file types\n• Service availability is not guaranteed — we may have downtime"
+      },
+      "5": {
+        "title": "6. Disclaimer of Warranties",
+        "content": "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND. WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.\n\nWe do not warrant that:\n• The Service will be uninterrupted or error-free\n• Conversion results will be accurate or complete\n• The Service will be free of viruses or harmful components"
+      },
+      "6": {
+        "title": "7. Limitation of Liability",
+        "content": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES RESULTING FROM YOUR USE OF OR INABILITY TO USE THE SERVICE, INCLUDING LOSS OF DATA OR PROFITS."
+      },
+      "7": {
+        "title": "8. Changes to Terms",
+        "content": "We reserve the right to modify these terms at any time. We will post the updated terms on this page. Continued use of the Service after changes constitutes acceptance."
+      },
+      "8": {
+        "title": "9. Governing Law",
+        "content": "These Terms shall be governed by and construed in accordance with applicable law, without regard to its conflict of law provisions."
+      },
+      "9": {
+        "title": "10. Contact",
+        "content": "If you have any questions about these Terms, please reach out through our About page."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Fast, free, and secure file conversions. No sign-up required.",
+    "tools": "Tools",
+    "company": "Company",
+    "formats": "Formats",
+    "formatsDesc": "JPG, PNG, WebP, PDF, MP3, MP4, CSV, JSON, XML, XLSX, ZIP and more.",
+    "madeWith": "Made with care for everyone.",
+    "for": "",
+    "autoDelete": "Files are automatically deleted after 1 hour.",
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "imageTools": "Image Tools",
+    "pdfTools": "PDF Tools",
+    "audioVideo": "Audio & Video",
+    "dataArchive": "Data & Archive"
+  },
+  "converter": {
+    "dropzone": "Drag & drop a file here, or click to select",
+    "dropzoneMulti": "Drag & drop files here, or click to select",
+    "maxSize": "Maximum file size: 100MB",
+    "convert": "Convert",
+    "converting": "Converting...",
+    "download": "Download",
+    "downloadAll": "Download All",
+    "reset": "Convert another file",
+    "error": "Conversion failed. Please try again.",
+    "selectFormat": "Select output format",
+    "quality": "Quality",
+    "width": "Width",
+    "height": "Height",
+    "maintainRatio": "Maintain aspect ratio",
+    "processing": "Processing...",
+    "success": "Done!",
+    "fileReady": "Your file is ready",
+    "or": "or",
+    "browse": "Choose file",
+    "releaseToUpload": "Drop it here",
+    "dragOrClick": "Drag & drop or click to select a file",
+    "maxSizeLabel": "Max size",
+    "upToFiles": "Up to {{count}} files",
+    "dismiss": "Dismiss",
+    "file": "File",
+    "size": "Size",
+    "pages": "Pages",
+    "rows": "Rows",
+    "saved": "Saved",
+    "dimensions": "Dimensions",
+    "convertAnother": "Convert another file"
+  },
+  "pages": {
+    "imageConverter": {
+      "title": "Image Converter",
+      "desc": "Convert between JPG, PNG, WebP, BMP, TIFF, GIF, and AVIF formats.",
+      "convertTo": "Convert to",
+      "dropLabel": "Drop your image here",
+      "dropSublabel": "Supports JPG, PNG, WebP, BMP, TIFF, GIF, AVIF",
+      "convertBtn": "Convert to {{format}}",
+      "resultTitle": "Image converted!",
+      "infoText": "All conversions happen on our secure server. Your files are automatically deleted after 1 hour. We support lossless and lossy formats — WebP and AVIF offer the best compression with high quality."
+    },
+    "imageResizer": {
+      "title": "Image Resizer",
+      "desc": "Resize images by exact pixel dimensions or percentage scale.",
+      "resizeMode": "Resize Mode",
+      "byPixels": "By Pixels",
+      "byPercent": "By Percentage",
+      "widthPx": "Width (px)",
+      "heightPx": "Height (px)",
+      "percentage": "Percentage (%)",
+      "scalePercent": "Scale Percentage",
+      "maintainAspect": "Maintain aspect ratio",
+      "dropLabel": "Drop your image here",
+      "resizeBtn": "Resize Image",
+      "resultTitle": "Image resized!",
+      "infoText": "When maintaining aspect ratio with only one dimension specified, the other is calculated automatically. The output format matches the input format."
+    },
+    "imageCompressor": {
+      "title": "Image Compressor",
+      "desc": "Reduce image file size while controlling quality. Supports JPG, PNG, WebP.",
+      "quality": "Quality",
+      "smallest": "Smallest (1)",
+      "best": "Best (100)",
+      "highQuality": "High Quality",
+      "goodQuality": "Good Quality",
+      "mediumQuality": "Medium Quality",
+      "lowQuality": "Low Quality (Smallest File)",
+      "dropLabel": "Drop your image here",
+      "dropSublabel": "Supports JPG, PNG, WebP, AVIF",
+      "compressBtn": "Compress Image",
+      "resultTitle": "Image compressed!",
+      "infoText": "Quality 80 is the sweet spot for most use cases — significantly smaller file size with barely noticeable quality loss. For web images, 60-75 works great. AVIF and WebP formats achieve better compression than JPG at the same quality level."
+    },
+    "imageCropper": {
+      "title": "Image Cropper",
+      "desc": "Crop images by specifying the region coordinates and dimensions.",
+      "cropRegion": "Crop Region (pixels)",
+      "leftOffset": "Left (X offset)",
+      "topOffset": "Top (Y offset)",
+      "widthRequired": "Width (px) *",
+      "heightRequired": "Height (px) *",
+      "dropLabel": "Drop your image here",
+      "cropBtn": "Crop Image",
+      "resultTitle": "Image cropped!",
+      "infoText": "Crop coordinates start from the top-left corner (0, 0). Make sure the crop region fits within the original image dimensions to avoid errors."
+    },
+    "imageToPdf": {
+      "title": "Image to PDF",
+      "desc": "Convert one or multiple images into a single PDF document.",
+      "dropLabel": "Drop your images here",
+      "dropSublabel": "Upload multiple images — each becomes a page",
+      "imagesSelected": "{{count}} images selected — they will be combined into a {{count}}-page PDF in the order shown.",
+      "createBtn": "Create PDF from {{count}} Image",
+      "createBtnPlural": "Create PDF from {{count}} Images",
+      "resultTitle": "PDF created!",
+      "infoText": "Each image becomes one page in the PDF. The page size matches the image dimensions. You can upload up to 20 images at once."
+    },
+    "pdfMerger": {
+      "title": "PDF Merger",
+      "desc": "Combine multiple PDF files into a single document.",
+      "dropLabel": "Drop your PDF files here",
+      "dropSublabel": "Upload 2 or more PDFs to merge",
+      "pdfSelected": "{{count}} PDF selected. PDFs will be merged in the order shown above.",
+      "pdfSelectedPlural": "{{count}} PDFs selected. PDFs will be merged in the order shown above.",
+      "mergeBtn": "Merge {{count}} PDFs",
+      "resultTitle": "PDFs merged!",
+      "infoText": "PDFs are merged in the order you upload them. Drag to reorder before merging. Up to 20 PDFs can be merged at once."
+    },
+    "pdfSplitter": {
+      "title": "PDF Splitter",
+      "desc": "Extract a range of pages from a PDF document.",
+      "pageRange": "Page Range",
+      "startPage": "Start Page",
+      "endPage": "End Page (optional)",
+      "endPagePlaceholder": "Last page",
+      "endPageHint": "Leave end page empty to extract from start page to the end of the document.",
+      "dropLabel": "Drop your PDF here",
+      "splitBtn": "Split PDF",
+      "resultTitle": "PDF split successfully!",
+      "infoText": "Page numbers start at 1. To extract a single page, enter the same number for both start and end. The resulting PDF preserves all original formatting."
+    },
+    "pdfCompressor": {
+      "title": "PDF Compressor",
+      "desc": "Reduce PDF file size by optimizing its internal structure.",
+      "dropLabel": "Drop your PDF here",
+      "compressBtn": "Compress PDF",
+      "resultTitle": "PDF compressed!",
+      "infoText": "PDF compression works by optimizing object streams and removing redundant data. Results vary depending on the PDF content. For heavy image-based PDFs, consider using specialized tools like Ghostscript for better results."
+    },
+    "pdfToWord": {
+      "title": "PDF to Word",
+      "desc": "Convert PDF documents to editable DOCX format.",
+      "advancedRequired": "Advanced PDF Processing Required",
+      "advancedDesc": "PDF to Word conversion requires specialized OCR libraries (such as Tesseract or a cloud API). This feature requires additional server-side dependencies.",
+      "step1": "Install pdf2docx or use a cloud API like Adobe PDF Services",
+      "step2": "For accurate text extraction with layout preservation, OCR engines like Tesseract are required",
+      "step3": "The route endpoint /api/pdf/to-word is ready to be implemented",
+      "infoText": "In the meantime, you can use free services like Google Docs (upload PDF and open with Docs), Microsoft Word online, or Adobe Acrobat to convert PDF to DOCX format."
+    },
+    "wordToPdf": {
+      "title": "Word to PDF",
+      "desc": "Convert DOCX files to PDF format.",
+      "libreRequired": "LibreOffice or Pandoc Required",
+      "libreDesc": "DOCX to PDF conversion requires LibreOffice headless mode or Pandoc installed on the server.",
+      "infoText": "Once LibreOffice is installed, add the conversion logic to the /api/pdf/word-to-pdf route in the server. The route uses child_process exec to call LibreOffice CLI."
+    },
+    "audioConverter": {
+      "title": "Audio Converter",
+      "desc": "Convert between MP3, WAV, AAC, FLAC, OGG, and M4A formats.",
+      "outputFormat": "Output Format",
+      "bitrate": "Bitrate",
+      "ffmpegRequired": "FFmpeg Required",
+      "dropLabel": "Drop your audio file here",
+      "dropSublabel": "Supports MP3, WAV, AAC, FLAC, OGG, M4A",
+      "convertBtn": "Convert to {{format}}",
+      "resultTitle": "Audio converted!",
+      "infoText": "Audio conversion requires FFmpeg to be installed on the server. FLAC is lossless with larger files. MP3 at 192kbps is transparent for most listeners. AAC and OGG offer better quality than MP3 at the same bitrate."
+    },
+    "videoConverter": {
+      "title": "Video Converter",
+      "desc": "Convert between MP4, AVI, MOV, MKV, and WebM formats.",
+      "outputFormat": "Output Format",
+      "quality": "Quality",
+      "highQuality": "High Quality",
+      "highQualityDesc": "Larger file, best quality",
+      "medium": "Medium",
+      "mediumDesc": "Balanced size & quality",
+      "lowQuality": "Low Quality",
+      "lowQualityDesc": "Smallest file size",
+      "ffmpegRequired": "FFmpeg Required",
+      "dropLabel": "Drop your video file here",
+      "dropSublabel": "Supports MP4, AVI, MOV, MKV, WebM, FLV",
+      "convertBtn": "Convert to {{format}}",
+      "resultTitle": "Video converted!",
+      "processingNote": "Video conversion can take a few minutes depending on file size...",
+      "infoText": "Video conversion requires FFmpeg. Large video files may take several minutes to process. MP4 with H.264 is the most compatible format for web and mobile devices."
+    },
+    "videoToGif": {
+      "title": "Video to GIF",
+      "desc": "Convert a video clip into an animated GIF with custom settings.",
+      "startTime": "Start Time (seconds)",
+      "duration": "Duration (max 30s)",
+      "fps": "FPS (frames per second)",
+      "widthPixels": "Width (pixels)",
+      "preview": "Preview:",
+      "ffmpegRequired": "FFmpeg Required",
+      "dropLabel": "Drop your video here",
+      "createBtn": "Create GIF",
+      "resultTitle": "GIF created!",
+      "infoText": "Keep GIFs short (2-8 seconds) for smaller file sizes. Lower FPS creates smaller files. Width of 480px is a good balance. Maximum duration is capped at 30 seconds to prevent very large GIF files."
+    },
+    "videoCompressor": {
+      "title": "Video Compressor",
+      "desc": "Reduce video file size while preserving quality using H.264 encoding.",
+      "compressionLevel": "Compression Level",
+      "highQuality": "High Quality",
+      "highQualityDesc": "~20% smaller",
+      "medium": "Medium",
+      "mediumDesc": "~40-60% smaller",
+      "maxCompression": "Maximum Compression",
+      "maxCompressionDesc": "~70%+ smaller",
+      "ffmpegRequired": "FFmpeg Required",
+      "dropLabel": "Drop your video here",
+      "compressBtn": "Compress Video",
+      "resultTitle": "Video compressed!",
+      "processingNote": "Compression may take several minutes for large files...",
+      "infoText": "Video is re-encoded with H.264 (libx264) which offers excellent compression. The output format matches the input file. For best results on very large files, consider splitting the video first."
+    },
+    "csvToJson": {
+      "title": "CSV to JSON",
+      "desc": "Convert CSV spreadsheet data to JSON format.",
+      "preview": "Preview (first 3 rows):",
+      "dropLabel": "Drop your CSV file here",
+      "convertBtn": "Convert to JSON",
+      "resultTitle": "CSV converted to JSON!",
+      "infoText": "The first row of your CSV must contain column headers. Both comma (,) and semicolon (;) delimiters are supported. Quoted fields with commas inside are handled correctly."
+    },
+    "jsonToCsv": {
+      "title": "JSON to CSV",
+      "desc": "Convert JSON arrays and objects to CSV spreadsheet format.",
+      "dropLabel": "Drop your JSON file here",
+      "convertBtn": "Convert to CSV",
+      "resultTitle": "JSON converted to CSV!",
+      "infoText": "JSON must be an array of objects or an object with an array value. Nested objects will be flattened with underscore notation (e.g., address_city). Arrays within objects are stringified."
+    },
+    "csvToXlsx": {
+      "title": "CSV to Excel (XLSX)",
+      "desc": "Convert CSV files to Excel spreadsheet format with auto-formatted columns.",
+      "dropLabel": "Drop your CSV file here",
+      "convertBtn": "Convert to XLSX",
+      "resultTitle": "Excel file created!",
+      "infoText": "The CSV is converted to an Excel XLSX file with the first row as headers. Column widths are automatically adjusted. Open the result in Microsoft Excel, LibreOffice Calc, or Google Sheets."
+    },
+    "jsonToXml": {
+      "title": "JSON to XML",
+      "desc": "Convert JSON data to well-formatted XML documents.",
+      "rootElementName": "Root Element Name",
+      "arrayItemElement": "Array Item Element",
+      "dropLabel": "Drop your JSON file here",
+      "convertBtn": "Convert to XML",
+      "resultTitle": "JSON converted to XML!",
+      "infoText": "JSON arrays are wrapped in the item element name specified. Nested objects are represented as nested XML elements. The output includes an XML declaration header with UTF-8 encoding."
+    },
+    "xlsxToCsv": {
+      "title": "Excel to CSV",
+      "desc": "Convert Excel XLSX files to CSV format.",
+      "sheetName": "Sheet Name (optional)",
+      "sheetNamePlaceholder": "Leave empty to use the first sheet",
+      "availableSheets": "Available sheets: {{sheets}}. To convert a specific sheet, click \"Convert Another\" and enter the sheet name.",
+      "dropLabel": "Drop your Excel file here",
+      "dropSublabel": "Supports XLSX and XLS formats",
+      "convertBtn": "Convert to CSV",
+      "resultTitle": "Excel converted to CSV!",
+      "infoText": "By default, the first sheet of the workbook is converted. If your Excel file has multiple sheets, specify the exact sheet name. The sheet name is case-sensitive."
+    },
+    "zipCreator": {
+      "title": "ZIP Creator",
+      "desc": "Compress multiple files into a single ZIP archive.",
+      "dropLabel": "Drop files to zip here",
+      "dropSublabel": "Any file type, up to 50 files",
+      "filesSelected": "{{count}} file selected for compression",
+      "filesSelectedPlural": "{{count}} files selected for compression",
+      "archiveContains": "Archive contains {{count}} files",
+      "createBtn": "Create ZIP ({{count}} files)",
+      "resultTitle": "ZIP archive created!",
+      "infoText": "Files are compressed with maximum compression level. Original filenames are preserved in the ZIP archive. You can add up to 50 files at once."
+    },
+    "zipExtractor": {
+      "title": "ZIP Extractor",
+      "desc": "Extract files from ZIP archives and download them.",
+      "extractedFiles": "Extracted Files ({{count}}):",
+      "andMore": "...and {{count}} more files",
+      "dropLabel": "Drop your ZIP file here",
+      "extractBtn": "Extract ZIP",
+      "resultTitle": "ZIP extracted!",
+      "infoText": "The ZIP contents are extracted and repackaged into a new ZIP for download. This allows you to verify the contents before downloading. Files are processed securely on the server."
+    }
+  },
+  "lang": {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "ja": "日本語"
+  },
+  "toast": {
+    "noFile": "Please upload a file first",
+    "noImage": "Please upload an image first",
+    "noPdf": "Please upload a PDF file",
+    "noZip": "Please upload a ZIP file",
+    "noCsv": "Please upload a CSV file",
+    "noJson": "Please upload a JSON file",
+    "noExcel": "Please upload an Excel file",
+    "needAtLeast2Pdf": "Please upload at least 2 PDF files",
+    "needAtLeastOneImage": "Please upload at least one image",
+    "needAtLeastOneFile": "Please upload at least one file",
+    "enterCropSize": "Please enter crop width and height",
+    "enterSize": "Please enter width or height",
+    "convertSuccess": "Converted successfully!",
+    "compressSuccess": "Compressed successfully!",
+    "mergeSuccess": "Merged successfully!",
+    "splitSuccess": "Split successfully!",
+    "createSuccess": "Created successfully!",
+    "extractSuccess": "Extracted successfully!",
+    "cropSuccess": "Image cropped successfully!",
+    "resizeSuccess": "Image resized successfully!"
+  }
+}

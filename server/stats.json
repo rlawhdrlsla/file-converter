@@ -1,0 +1,40 @@
+{
+  "total": 2,
+  "byTool": {
+    "image_convert": 1,
+    "image_resize": 0,
+    "image_compress": 0,
+    "image_crop": 0,
+    "image_to_pdf": 1,
+    "pdf_merge": 0,
+    "pdf_split": 0,
+    "pdf_compress": 0,
+    "csv_to_json": 0,
+    "json_to_csv": 0,
+    "csv_to_xlsx": 0,
+    "xlsx_to_csv": 0,
+    "json_to_xml": 0,
+    "zip_create": 0,
+    "zip_extract": 0
+  },
+  "daily": {
+    "2026-03-24": {
+      "total": 2,
+      "byTool": {
+        "image_convert": 1,
+        "image_to_pdf": 1
+      }
+    }
+  },
+  "visitors": {
+    "total": 1,
+    "daily": {
+      "2026-03-24": {
+        "count": 1,
+        "ips": [
+          "eff8e7ca506627fe"
+        ]
+      }
+    }
+  }
+}
