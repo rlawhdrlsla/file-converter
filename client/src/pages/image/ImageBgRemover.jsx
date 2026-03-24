@@ -62,7 +62,7 @@ export default function ImageBgRemover() {
           <div className="card p-6">
             <FileDropzone
               files={files}
-              onFiles={handleFiles}
+              onFilesAccepted={handleFiles}
               accept={{ 'image/*': ['.jpg', '.jpeg', '.png', '.webp'] }}
               maxFiles={1}
               label={t('pages.imageBgRemover.dropLabel')}
