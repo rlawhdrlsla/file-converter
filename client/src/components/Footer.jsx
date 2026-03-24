@@ -9,10 +9,10 @@ export default function Footer() {
   const footerLinks = {
     [t('footer.tools')]: [
       { label: t('tools.image.convert.label'), path: '/image/convert' },
+      { label: t('tools.image.removeBg.label'), path: '/image/remove-bg' },
       { label: t('tools.pdf.merge.label'), path: '/pdf/merge' },
-      { label: t('tools.audio.convert.label'), path: '/audio/convert' },
-      { label: t('tools.video.convert.label'), path: '/video/convert' },
       { label: t('tools.data.csvToJson.label'), path: '/text/csv-to-json' },
+      { label: t('tools.archive.zipCreator.label'), path: '/archive/zip-creator' },
     ],
     [t('footer.company')]: [
       { label: t('footer.about'), path: '/about' },

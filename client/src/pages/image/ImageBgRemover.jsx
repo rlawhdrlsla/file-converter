@@ -51,13 +51,15 @@ export default function ImageBgRemover() {
       <ConverterHeader
         icon={Eraser}
         title={t('pages.imageBgRemover.title')}
-        desc={t('pages.imageBgRemover.desc')}
+        description={t('pages.imageBgRemover.desc')}
         gradient="from-violet-500 to-purple-600"
       />
 
-      {!result ? (
-        <>
-          <div className="card p-6 mb-4">
+      {result ? (
+        <ResultCard result={result} onReset={reset} title={t('pages.imageBgRemover.resultTitle')} />
+      ) : (
+        <div className="space-y-4">
+          <div className="card p-6">
             <FileDropzone
               files={files}
               onFiles={handleFiles}
@@ -84,29 +86,14 @@ export default function ImageBgRemover() {
           />
 
           {loading && (
-            <p className="text-center text-sm text-gray-400 mt-3">
+            <p className="text-center text-sm text-gray-400">
               {t('pages.imageBgRemover.loadingHint')}
             </p>
           )}
 
-          <InfoBox text={t('pages.imageBgRemover.infoText')} />
-          {error && <ErrorCard message={error} />}
-        </>
-      ) : (
-        <div className="space-y-4">
-          <ResultCard
-            title={t('pages.imageBgRemover.resultTitle')}
-            downloadUrl={result.downloadUrl}
-            filename={result.filename}
-            meta={[
-              { label: t('converter.size'), value: `${(result.size / 1024).toFixed(1)} KB` },
-              { label: t('converter.resolution'), value: `${result.width} × ${result.height}` },
-              { label: t('converter.format'), value: 'PNG (투명)' },
-            ]}
-          />
-          <button onClick={reset} className="w-full py-2.5 rounded-xl border border-gray-200 dark:border-dark-600 text-sm text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-dark-700 transition-colors">
-            {t('converter.reset')}
-          </button>
+          <InfoBox>{t('pages.imageBgRemover.infoText')}</InfoBox>
+
+          {error && <ErrorCard error={error} />}
         </div>
       )}
     </div>
