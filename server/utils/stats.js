@@ -12,7 +12,10 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const STATS_FILE = path.join(__dirname, '..', 'stats.json');
+// uploads 디렉토리는 Render 영구 디스크에 마운트됨 — 재배포해도 데이터 유지
+const UPLOADS_DIR = path.join(__dirname, '..', 'uploads');
+if (!fs.existsSync(UPLOADS_DIR)) fs.mkdirSync(UPLOADS_DIR, { recursive: true });
+const STATS_FILE = path.join(UPLOADS_DIR, 'stats.json');
 
 const TOOL_LABELS = {
   image_convert:  '이미지 변환',
@@ -138,12 +141,17 @@ export function getStats(days = 30) {
   const todayStats = stats.daily[today] || { total: 0, byTool: {} };
   const todayVisitors = stats.visitors?.daily[today]?.count || 0;
 
+  // visitors.total을 별도 저장값 대신 daily 합산으로 계산
+  // → 파일 리셋 등으로 total이 어긋나도 항상 정확한 값 반환
+  const visitorsTotal = Object.values(stats.visitors?.daily || {})
+    .reduce((sum, d) => sum + (d.count || 0), 0);
+
   return {
     total: stats.total || 0,
     todayTotal: todayStats.total || 0,
     byTool: byToolWithLabel,
     daily: dailySeries,
-    visitorsTotal: stats.visitors?.total || 0,
+    visitorsTotal,
     todayVisitors,
   };
 }
