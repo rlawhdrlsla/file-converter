@@ -12,8 +12,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// uploads 디렉토리는 Render 영구 디스크에 마운트됨 — 재배포해도 데이터 유지
-const UPLOADS_DIR = path.join(__dirname, '..', 'uploads');
+// UPLOADS_DIR 환경변수로 Railway Volume 경로 지정 가능 (예: /data)
+const UPLOADS_DIR = process.env.UPLOADS_DIR || path.join(__dirname, '..', 'uploads');
 if (!fs.existsSync(UPLOADS_DIR)) fs.mkdirSync(UPLOADS_DIR, { recursive: true });
 const STATS_FILE = path.join(UPLOADS_DIR, 'stats.json');
 
