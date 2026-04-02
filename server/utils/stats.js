@@ -86,21 +86,29 @@ export function recordConversion(toolKey) {
 }
 
 /**
- * 방문자 기록 — IP를 해시해서 하루 1회만 카운트
+ * 방문자 기록 — IP를 해시해서 하루 1회만 카운트, 접속 로그 저장
  */
-export function recordVisit(ip) {
+export function recordVisit(ip, path = '/') {
   const stats = loadStats();
   const today = new Date().toISOString().slice(0, 10);
+  const now = new Date().toISOString();
 
   if (!stats.visitors) stats.visitors = { total: 0, daily: {} };
   if (!stats.visitors.daily[today]) stats.visitors.daily[today] = { count: 0, ips: [] };
+  if (!stats.visitLog) stats.visitLog = [];
 
   const hash = crypto.createHash('sha256').update(ip || 'unknown').digest('hex').slice(0, 16);
+
+  // 하루 1회 고유 방문자 카운트
   if (!stats.visitors.daily[today].ips.includes(hash)) {
     stats.visitors.daily[today].ips.push(hash);
     stats.visitors.daily[today].count++;
     stats.visitors.total = (stats.visitors.total || 0) + 1;
   }
+
+  // 접속 로그 (매 방문마다 기록, 최근 500건 유지)
+  stats.visitLog.push({ time: now, ipHash: hash, path });
+  if (stats.visitLog.length > 500) stats.visitLog = stats.visitLog.slice(-500);
 
   // 90일 이전 데이터 정리
   const cutoff = new Date();
@@ -110,6 +118,15 @@ export function recordVisit(ip) {
   }
 
   saveStats(stats);
+}
+
+/**
+ * 접속 로그 조회 — 최근 N건
+ */
+export function getVisitLog(limit = 100) {
+  const stats = loadStats();
+  const log = stats.visitLog ?? [];
+  return log.slice(-limit).reverse();
 }
 
 /**

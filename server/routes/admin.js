@@ -5,7 +5,7 @@
  */
 
 import express from 'express';
-import { getStats } from '../utils/stats.js';
+import { getStats, getVisitLog } from '../utils/stats.js';
 
 const router = express.Router();
 
@@ -32,6 +32,12 @@ router.get('/stats', adminAuth, (req, res) => {
   const days = parseInt(req.query.days) || 30;
   const stats = getStats(days);
   res.json(stats);
+});
+
+// GET /api/admin/visits — 접속 로그
+router.get('/visits', adminAuth, (req, res) => {
+  const limit = parseInt(req.query.limit) || 100;
+  res.json(getVisitLog(limit));
 });
 
 export default router;

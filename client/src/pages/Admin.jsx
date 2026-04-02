@@ -100,16 +100,20 @@ function Dashboard({ adminKey, onLogout }) {
   const [loading, setLoading] = useState(true);
   const [days, setDays] = useState(14);
   const [lastUpdated, setLastUpdated] = useState(null);
+  const [visitLog, setVisitLog] = useState([]);
 
   const fetchStats = useCallback(async () => {
     setLoading(true);
     try {
-      const res = await fetch(`${API}/stats?days=${days}`, {
-        headers: { 'X-Admin-Key': adminKey },
-      });
-      if (res.status === 401) { onLogout(); return; }
-      const data = await res.json();
+      const [statsRes, logRes] = await Promise.all([
+        fetch(`${API}/stats?days=${days}`, { headers: { 'X-Admin-Key': adminKey } }),
+        fetch(`${API}/visits?limit=100`, { headers: { 'X-Admin-Key': adminKey } }),
+      ]);
+      if (statsRes.status === 401) { onLogout(); return; }
+      const data = await statsRes.json();
+      const log = logRes.ok ? await logRes.json() : [];
       setStats(data);
+      setVisitLog(log);
       setLastUpdated(new Date());
     } catch (e) {
       console.error(e);
@@ -236,6 +240,41 @@ function Dashboard({ adminKey, onLogout }) {
               </BarChart>
             </ResponsiveContainer>
           )}
+        </div>
+
+        {/* 접속 로그 */}
+        <div className="card overflow-hidden">
+          <div className="px-6 py-4 border-b border-gray-200 dark:border-dark-700">
+            <h2 className="font-semibold text-gray-900 dark:text-white">최근 접속 기록 (최대 100건)</h2>
+          </div>
+          <div className="overflow-x-auto max-h-80 overflow-y-auto">
+            <table className="w-full text-sm">
+              <thead className="bg-gray-50 dark:bg-dark-800 sticky top-0">
+                <tr>
+                  <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">시간</th>
+                  <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">페이지</th>
+                  <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">IP (해시)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 dark:divide-dark-700">
+                {visitLog.length === 0 ? (
+                  <tr><td colSpan={3} className="px-6 py-4 text-center text-gray-400 text-sm">접속 기록 없음</td></tr>
+                ) : visitLog.map((entry, i) => (
+                  <tr key={i} className="hover:bg-gray-50 dark:hover:bg-dark-800 transition-colors">
+                    <td className="px-6 py-2.5 text-gray-500 dark:text-gray-400 font-mono text-xs whitespace-nowrap">
+                      {new Date(entry.time).toLocaleString('ko-KR')}
+                    </td>
+                    <td className="px-6 py-2.5 text-gray-900 dark:text-white">
+                      {entry.path}
+                    </td>
+                    <td className="px-6 py-2.5 text-gray-400 font-mono text-xs">
+                      {entry.ipHash}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
 
         {/* 전체 도구 목록 표 */}

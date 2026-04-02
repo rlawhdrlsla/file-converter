@@ -33,7 +33,11 @@ function App() {
     if (window.location.pathname.startsWith('/admin')) return
     if (sessionStorage.getItem('visited')) return
     sessionStorage.setItem('visited', '1')
-    fetch('/api/visit', { method: 'POST' }).catch(() => {});
+    fetch('/api/visit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ path: window.location.pathname }),
+    }).catch(() => {});
   }, []);
 
   return (

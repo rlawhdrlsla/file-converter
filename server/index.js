@@ -86,7 +86,8 @@ app.get('/api/health', (req, res) => {
 // 방문자 기록 (공개 엔드포인트)
 app.post('/api/visit', (req, res) => {
   const ip = (req.headers['x-forwarded-for'] || req.ip || 'unknown').split(',')[0].trim();
-  recordVisit(ip);
+  const path = typeof req.body?.path === 'string' ? req.body.path.slice(0, 200) : '/';
+  recordVisit(ip, path);
   res.json({ ok: true });
 });
 
